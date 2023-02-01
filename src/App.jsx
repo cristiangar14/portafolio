@@ -1,9 +1,10 @@
 import React from 'react';
 import Routing from './routes/Routing';
 
+import './App.scss';
+
 const App = () => {
   return (
-    // eslint-disable-next-line react/react-in-jsx-scope
     <Routing />
   );
 };

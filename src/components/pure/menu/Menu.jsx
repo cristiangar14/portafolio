@@ -11,7 +11,7 @@ const Menu = () => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-      <Navbar color="light" light expand="md">
+      <Navbar className="menu" light expand="md">
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav fill className="ml-auto" navbar>
