@@ -1,10 +1,14 @@
 import React from 'react';
+import { Container } from 'reactstrap';
+
+import './homePage.scss';
 
 const HomePage = () => {
     return (
-      <div>
-        <h1>Home</h1>
-      </div>
+      <Container fluid="sm" className="home">
+        <h1 className="home--name">Cristian Garzón Sanchez</h1>
+        <h2 className="home--job">Software Developer</h2>
+      </Container>
     );
 };
 

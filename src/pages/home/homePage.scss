@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.home--name {
+    text-align: left;
+    color: $primary-contrast-color;
+    font-size: 5rem;
+    font-family: $font-family-contrast;
+}
+
+.home--job {
+    color: $primary-font-color;
+    font-size: $font-size-h2;
+    font-family: $font-family-primary;
+}
