@@ -1,7 +1,15 @@
-
+//variables
 @import '../../../styles/variables.scss';
 
 .nav{
     background-color: $secundary-background-color;
-    width: 100%;
+}
+
+.nav .nav--btn{
+    background-color: $primary-font-color;
+    transition: all 0.3s ease-in;
+}
+
+.nav .nav--btn.nav-open{
+    background-color: $primary-contrast-color;
 }
