@@ -1,4 +1,7 @@
+
+@import '../../../styles/variables.scss';
+
 .nav{
-    background-color: #20232A;
-    color: #C4C4C4;
+    background-color: $secundary-background-color;
+    width: 100%;
 }

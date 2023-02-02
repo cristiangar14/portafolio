@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {
  Navbar, NavbarToggler, Nav, NavItem, Collapse,
 } from 'reactstrap';
+import './menu.scss';
 
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
