@@ -17,13 +17,22 @@ const Menu = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav fill className="ml-auto" navbar>
             <NavItem>
-              <Link to="/">Home</Link>
+              <Link to="/">Inicio</Link>
             </NavItem>
             <NavItem>
-              <Link to="/about">About</Link>
+              <Link to="/about">Acerca</Link>
             </NavItem>
             <NavItem>
-              <Link to="/contact">Contact</Link>
+              <Link to="/experience">Experiencia</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/portfolio">Portafolio</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/resources">Recursos</Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/contact">Contacto</Link>
             </NavItem>
           </Nav>
         </Collapse>
