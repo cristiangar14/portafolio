@@ -6,8 +6,10 @@ import './homePage.scss';
 const HomePage = () => {
     return (
       <Container fluid="sm" className="home">
-        <h1 className="home--name">Cristian Garzón Sanchez</h1>
-        <h2 className="home--job">Software Developer</h2>
+        <div className="">
+          <h1 className="home--name">Cristian Garzón Sanchez</h1>
+          <h2 className="home--job">Software Developer</h2>
+        </div>
       </Container>
     );
 };
