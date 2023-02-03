@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import { Phone, Envelope } from 'react-bootstrap-icons';
+import { Phone, Envelope, CCircle } from 'react-bootstrap-icons';
 
 import './footer.scss';
 
@@ -30,7 +30,10 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer--copy">
-            <p>Todos los derechos reservados</p>
+            <p>
+              Todos los derechos reservados
+              <span><CCircle size={15} /></span>
+            </p>
           </div>
         </Container>
       </div>
