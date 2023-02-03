@@ -18,9 +18,9 @@ import ResourcesPage from '../pages/resources/ResourcesPage';
 const Routing = () => {
     return (
       <Router>
-        <Background />
         <Nav />
         <main className="main">
+          <Background />
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/about" element={<AboutPage />} />

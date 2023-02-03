@@ -3,23 +3,28 @@
 .home{
     display: flex;
     flex-direction: column;
-    align-items: baseline;
     justify-content: center;
-    min-height: 50vh;
+    min-height: 100%;
 }
 
 .home--name {
-    text-align: left;
+    margin: auto 0;
+    text-align: right;
     color: $primary-contrast-color;
     font-family: $font-family-contrast;
     font-size: 3rem;
-        @media (min-width: $breakpoint-mobile ) {
-            font-size: 5rem;
-        }
+    @media (min-width: $breakpoint-mobile ) {
+        font-size: 5rem;
+    }
 }
 
 .home--job {
     color: $primary-font-color;
     font-size: $font-size-h2;
     font-family: $font-family-primary;
+    text-align: right;
+    font-size: 1.5rem;
+    @media (min-width: $breakpoint-mobile ) {
+        font-size: 2.5rem;
+    }
 }
