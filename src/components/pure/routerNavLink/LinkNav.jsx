@@ -4,10 +4,8 @@ import { NavLink as RouterNavLink } from 'react-router-dom';
 import './linkNav.scss';
 
 const LinkNav = ({ to, children }) => {
-  const activeClassName = window.location.pathname === to ? 'activeLinkNav' : '';
-
   return (
-    <RouterNavLink to={to} className={activeClassName}>
+    <RouterNavLink to={to}>
       {children}
     </RouterNavLink>
   );
