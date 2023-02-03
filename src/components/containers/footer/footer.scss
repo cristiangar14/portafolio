@@ -1,8 +1,26 @@
+@import '../../../styles/variables.scss';
+
 .footer{
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #20232A;
-    color: #C4C4C4;
+    background-color: $secundary-background-color;
+    color: $primary-font-color;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer--left, .footer--right {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+    @media(min-width: $breakpoint-mobile){
+        max-width: 300px;
+    }
+}
+
+.footer--copy p{
+    text-align: center;
 }
