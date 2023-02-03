@@ -1,10 +1,6 @@
 @import '../../../styles/variables.scss';
 
 .footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background-color: $secundary-background-color;
     color: $primary-font-color;
     padding-top: 1rem;
@@ -53,6 +49,10 @@
             transition: all 0.3s ease-in;
             p {
                 margin: 0 0 0 10px;
+                font-size: 0.7rem;
+                @media (min-width: $breakpoint-mobile ) {
+                    font-size: 1rem;
+                }
             }
         }
         a:hover{

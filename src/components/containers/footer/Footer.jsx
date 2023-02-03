@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="footer--right">
             <div className="">
-              <h2>Contactame</h2>
+              <h2>Contáctame</h2>
               {/* TODO agregar archivo apra descarga */}
               <a href="documento.pdf" download="mi-archivo.pdf">
                 <Phone size={30} />

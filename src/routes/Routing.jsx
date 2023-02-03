@@ -20,15 +20,17 @@ const Routing = () => {
       <Router>
         <Background />
         <Nav />
-        <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/about" element={<AboutPage />} />
-          <Route exact path="/experience" element={<ExperiencePage />} />
-          <Route exact path="/portfolio" element={<PortfolioPage />} />
-          <Route exact path="/resources" element={<ResourcesPage />} />
-          <Route exact path="/contact" element={<ContactPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
+        <main className="main">
+          <Routes>
+            <Route exact path="/" element={<HomePage />} />
+            <Route exact path="/about" element={<AboutPage />} />
+            <Route exact path="/experience" element={<ExperiencePage />} />
+            <Route exact path="/portfolio" element={<PortfolioPage />} />
+            <Route exact path="/resources" element={<ResourcesPage />} />
+            <Route exact path="/contact" element={<ContactPage />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+        </main>
         <Footer />
       </Router>
     );
