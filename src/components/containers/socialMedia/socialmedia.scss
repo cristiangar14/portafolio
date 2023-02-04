@@ -1,0 +1,23 @@
+@import '../../../styles/variables.scss';
+
+.socialMedia {
+    a {
+        display: block;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: $primary-contrast-color;
+        
+        .socialMedia--icon{
+            font-size: 1.7rem;
+            margin-right: 1rem;
+            color: $primary-font-color;
+        }
+    }
+}
+
+.socialMedia a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: $primary-contrast-color;
+    color: $primary-font-color;
+}
