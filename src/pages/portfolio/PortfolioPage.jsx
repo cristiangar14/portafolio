@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 
 const PortfolioPage = () => {
     return (
-      <div>
+      <Container>
         Portafolioknsx.flkjbnasdjfbfjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-      </div>
+      </Container>
     );
 };
 
