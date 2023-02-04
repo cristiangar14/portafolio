@@ -1,28 +1,62 @@
 @import '../../styles/variables.scss';
 .about{
+    padding-top: 2rem;
     color: $primary-font-color;
 
     .about--image{
         display: none;
     }
 
+    .about--text{
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: $primary-contrast-color;
+        }
+    }
+
+    .about--skills{
+        margin: 1rem 0;
+    }
+
     @media (min-width: $breakpoint-mobile ) {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        gap: 10px 10px; 
+        grid-template-areas: 
+          "aboutImage aboutText aboutText"
+          "aboutImage aboutText aboutText"
+          "aboutEducation aboutEducation aboutSocial"
+          "aboutCertification aboutCertification aboutCertification";
 
         .about--image { 
-            grid-area: 1 / 1 / 3 / 2;
-            display: block;
-            width: 100%;
-            height: auto;
+            grid-area: aboutImage;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 100%;
+
+            }
         }
-        .about--text { grid-area: 1 / 2 / 3 / 4; }
-        .about--education { grid-area: 3 / 1 / 4 / 3; }
-        .about--social { grid-area: 3 / 3 / 4 / 4; }
-        .about--certification { grid-area: 4 / 1 / 5 / 4; }
+        .about--text { grid-area: aboutText; }
+        .about--skills { 
+            grid-area: aboutEducation;
+
+            .about--skills_list{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                max-height: 250px;
+            }
+        }
+        .about--social { grid-area: aboutSocial; }
+        .about--certification { grid-area: aboutCertification; }
     }
     
 }
