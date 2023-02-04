@@ -19,20 +19,19 @@
         }
     }
 
-    .about--skills{
-        margin: 1rem 0;
+    .about--skills, .about--social{
+        margin: 3rem 0;
     }
 
     @media (min-width: $breakpoint-mobile ) {
         display: grid; 
         grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
         gap: 10px 10px; 
         grid-template-areas: 
           "aboutImage aboutText aboutText"
           "aboutImage aboutText aboutText"
-          "aboutEducation aboutEducation aboutSocial"
-          "aboutCertification aboutCertification aboutCertification";
+          "aboutEducation aboutEducation aboutSocial";
 
         .about--image { 
             grid-area: aboutImage;
@@ -56,7 +55,6 @@
             }
         }
         .about--social { grid-area: aboutSocial; }
-        .about--certification { grid-area: aboutCertification; }
     }
     
 }

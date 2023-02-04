@@ -6,6 +6,7 @@ import './aboutPage.scss';
 import { Link } from 'react-router-dom';
 import { skillsData, textsAbout } from '../../mocks/about.mocks';
 import Skill from '../../components/pure/skill/Skill';
+import SocialMedia from '../../components/containers/socialMedia/SocialMedia';
 
 const AboutPage = () => {
     return (
@@ -50,9 +51,7 @@ const AboutPage = () => {
         </div>
         <div className="about--social">
           <h3>Redes Sociales</h3>
-        </div>
-        <div className="about--certification">
-          carrusel de certificaciones
+          <SocialMedia />
         </div>
       </Container>
     );
