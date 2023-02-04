@@ -1,0 +1,21 @@
+@import '../../../styles/variables.scss';
+
+.skill {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    max-width: fit-content;
+    margin-bottom: 0.7rem;
+
+    .skill--logo{
+        max-width: 30px;
+        margin-right: 1rem;
+    }
+    p {
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+        text-decoration-color: $primary-contrast-color;
+        margin-bottom: 0;
+        
+    }
+}
