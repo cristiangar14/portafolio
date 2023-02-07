@@ -34,9 +34,7 @@ const AboutPage = () => {
             {' '}
             o
             {' '}
-            <Link to="/portfolio">Portafolio</Link>
-            {' '}
-            en mi perfil.
+            <Link to="/portfolio">Portafolio.</Link>
           </p>
         </div>
         <div className="about--skills">
