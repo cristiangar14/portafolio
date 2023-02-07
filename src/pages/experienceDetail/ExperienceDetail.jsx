@@ -15,10 +15,10 @@ const ExperienceDetail = () => {
     return (
       <Container className="experienceDetails">
         <div className="experienceDetails__company">
+          <h2>{data.company}</h2>
           <div className="experienceDetails__image">
             <img src={data.logo} alt={data.company} />
           </div>
-          <h2>{data.company}</h2>
           <p>{data.companyDescription}</p>
         </div>
         <div className="experienceDetails__functions">
