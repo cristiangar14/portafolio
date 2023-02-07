@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.portfolio {
+    padding-top: 2rem;
+    color: $primary-font-color;
+
+    h2, h3 {
+        color: $primary-contrast-color;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
