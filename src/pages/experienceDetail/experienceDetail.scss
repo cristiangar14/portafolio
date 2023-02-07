@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+
+.experienceDetails{
+    padding-top: 2rem;
+    color: $primary-font-color;
+
+    h2 {
+        margin-top: 2rem;
+    }
+
+    h2, h3 {
+        color: $primary-contrast-color;
+    }
+
+    .experienceDetails__company,
+    .experienceDetails__functions{
+        margin-bottom: 2rem;
+    }
+
+    .experienceDetails__company{
+        .experienceDetails__image{
+            max-width: 450px;
+            img {
+                min-width: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+    }
+
+    @media (min-width: $breakpoint-mobile ) {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: min-content min-content; 
+        gap: 10px 50px; 
+        grid-template-areas: 
+            "experienceDetails__company"
+            "experienceDetails__functions"; 
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .experienceDetails__company {
+            grid-area: experienceDetails__company;
+            margin-bottom: 0;
+            .experienceDetails__image{
+                float: left;
+                margin-right: 10px;
+                margin-bottom: 0.5rem;
+            }
+        }
+        
+        .experienceDetails__functions { 
+            margin-bottom: 0;
+            grid-area: experienceDetails__functions; 
+        }
+        
+    }
+}
