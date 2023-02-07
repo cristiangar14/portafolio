@@ -16,7 +16,7 @@ const BigCard = ({ data }) => {
           <p>{data.dates}</p>
         </div>
         <div className="bigCard--link">
-          <Link to="/">Ver mas...</Link>
+          <Link to={`/experience/${data.id}`}>Ver mas...</Link>
         </div>
       </div>
     );

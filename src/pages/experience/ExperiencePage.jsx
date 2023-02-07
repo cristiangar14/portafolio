@@ -12,7 +12,7 @@ const ExperiencePage = () => {
         <div className="experience--conatainer">
           {
             dataExperiences.map((el) => (
-              <BigCard key={`experience-${el.id}`} data={el} />
+              <BigCard key={`experience-${el.id}-${el.company}`} data={el} />
             ))
           }
         </div>
