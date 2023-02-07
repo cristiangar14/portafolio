@@ -10,7 +10,7 @@ const Footer = () => {
         <Container fluid className="footer--container">
           <div className="footer--left">
             <div className="">
-              <a href="/">
+              <a href="/ubicacionarchivo" download="archivo.pdf" target="_blank" rel="noreferrer">
                 <h2>Descarga mi CV</h2>
               </a>
             </div>
@@ -19,11 +19,11 @@ const Footer = () => {
             <div className="">
               <h2>Contáctame</h2>
               {/* TODO agregar archivo apra descarga */}
-              <a href="documento.pdf" download="mi-archivo.pdf">
+              <a href="tel:+573178356463" target="_blank" rel="noreferrer">
                 <Phone size={30} />
                 <p>+57 3178356463</p>
               </a>
-              <a href="mailto:desarrollo.cristian.garzon@gmail.com">
+              <a href="mailto:desarrollo.cristian.garzon@gmail.com" target="_blank" rel="noreferrer">
                 <Envelope size={30} />
                 <p>desarrollo.cristian.garzon@gmail.com</p>
               </a>
