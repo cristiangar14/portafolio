@@ -8,6 +8,7 @@
 
     .footer--container{
         max-width: 1320px;
+        display: flex;
         flex-direction: column;
 
         @media (min-width: $breakpoint-mobile ) {
