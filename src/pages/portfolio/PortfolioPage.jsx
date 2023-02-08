@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
+import CarrouselBasic from '../../components/containers/carouselBasic/CarouselBasic';
 
 import './portfolioPage.scss';
 
@@ -9,6 +10,7 @@ const PortfolioPage = () => {
         <h2>Portafolio</h2>
         <div className="">
           <h3>Profesional</h3>
+          <CarrouselBasic />
         </div>
         <div className="">
           <h3>Educativo</h3>
