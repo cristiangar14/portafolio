@@ -1,0 +1,52 @@
+@import '../../../styles/variables.scss';
+
+.smallCard {
+
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+    .smallCard--container{
+        text-decoration: none;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr min-content; 
+        gap: 10px 50px;
+        place-items: center;
+        grid-template-areas: 
+            "smallCard--image"
+            "smallCard-content";
+        background-color: $secundary-background-color;
+        border-radius: 0.375rem;
+            
+        .smallCard--image{
+            grid-area: smallCard--image;
+            max-width: 250px;
+    
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 0.375rem 0.375rem 0 0;
+            }
+        }
+    
+        .smallCard--content { 
+            grid-area: smallCard-content;
+            width: 100%;
+            max-width: 250px;
+            color: $primary-font-color;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+
+            h4, .smallCard--details{
+                color: $primary-contrast-color;
+            }
+
+            .smallCard--details{
+                text-align: center;
+            }
+        }
+    }
+
+}
+        
