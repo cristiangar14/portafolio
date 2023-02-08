@@ -4,14 +4,14 @@ import React from 'react';
 import Carousel from 'better-react-carousel';
 
 import './carouselBasic.scss';
-import CardItem from '../../pure/card/CardItem';
+import CardItem from '../../pure/cardItem/CardItem';
 
 const dots = ({ isActive }) => (
   <span
     className="carouselDots"
     style={{
-      height: isActive ? '8px' : '5px',
-      width: isActive ? '8px' : '5px',
+      height: isActive ? '10px' : '5px',
+      width: isActive ? '10px' : '5px',
       opacity: isActive ? '1' : '0.5',
     }}
   />
@@ -41,7 +41,7 @@ const responsive = [
   },
 ];
 
-const CarouselBasic = () => {
+const CarouselBasic = ({ data }) => {
   return (
     <Carousel
       dot={dots}
@@ -51,28 +51,21 @@ const CarouselBasic = () => {
       loop
       showDots
       responsiveLayout={responsive}
-      // autoplay={5000}
+      autoplay={10000}
       containerStyle={{
         maxWidth: '95vw',
-        margin: '0 auto',
+        margin: '2rem auto',
       }}
     >
-      <Carousel.Item>
-        <CardItem />
-      </Carousel.Item>
-      <Carousel.Item>
-        <CardItem />
-      </Carousel.Item>
-      <Carousel.Item>
-        <CardItem />
-      </Carousel.Item>
-      <Carousel.Item>
-        <CardItem />
-      </Carousel.Item>
-      <Carousel.Item>
-        <CardItem />
-      </Carousel.Item>
-      {/* ... */}
+      {
+        data.map((el) => {
+          return (
+            <Carousel.Item key={`slider-${el.id}`}>
+              <CardItem data={el} />
+            </Carousel.Item>
+          );
+        })
+      }
     </Carousel>
 );
 };

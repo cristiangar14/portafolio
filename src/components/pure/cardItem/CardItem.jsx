@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './cardItem.scss';
 
-const CardItem = () => {
+const CardItem = ({ data }) => {
     return (
       <Link to="/" className="smallCard">
         <div className="smallCard--container">
@@ -11,7 +11,7 @@ const CardItem = () => {
             <img src="https://picsum.photos/800/600?random=1" alt="reandom" />
           </div>
           <div className="smallCard--content">
-            <h4>Card title</h4>
+            <h4>{data.title}</h4>
             <h5>Card subtitle</h5>
             <p>texto jdsbfj jsdaafjkasbdf jbsdfkbasdf jsdbfkjasnfdkmas df ndsjfbsdjafb</p>
             <p className="smallCard--details">Ver mas...</p>

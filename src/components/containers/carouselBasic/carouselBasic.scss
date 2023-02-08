@@ -1,11 +1,6 @@
 @import '../../../styles/variables.scss';
 
-.carouselBasic{
-    overflow-x: hidden;
-    margin: 2rem 0;
-}
-
-.carrouselDots {
+.carouselDots {
     display: inline-block;
     background: $primary-contrast-color;
     border-radius: 50%;
