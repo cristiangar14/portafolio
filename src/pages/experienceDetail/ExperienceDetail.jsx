@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 import { Container } from 'reactstrap';
-import { getExperienceDetail } from '../../services/dataExperiences';
+import { getExperienceDetail } from '../../services/data';
 
 import './experienceDetail.scss';
 
