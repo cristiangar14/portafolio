@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'reactstrap';
 import { Phone, Envelope, CCircle } from 'react-bootstrap-icons';
 
 import './footer.scss';
@@ -7,7 +6,7 @@ import './footer.scss';
 const Footer = () => {
     return (
       <div className="footer">
-        <Container fluid className="footer--container">
+        <div className="footer--container">
           <div className="footer--left">
             <div className="">
               <a href="/ubicacionarchivo" download="archivo.pdf" target="_blank" rel="noreferrer">
@@ -35,7 +34,7 @@ const Footer = () => {
               <span><CCircle size={15} /></span>
             </p>
           </div>
-        </Container>
+        </div>
       </div>
     );
 };

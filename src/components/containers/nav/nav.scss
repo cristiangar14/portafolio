@@ -1,15 +1,23 @@
 //variables
 @import '../../../styles/variables.scss';
 
-.nav{
+.nav nav{
     background-color: $secundary-background-color;
+    font-family: $font-family-primary;
+    position: relative;
+    a {
+        color: $primary-font-color;
+        margin-right: 1rem;
+    }
+
+    a:hover, a.active{
+        color: $primary-contrast-color;
+    }
 }
 
-.nav .nav--btn{
-    background-color: $primary-font-color;
-    transition: all 0.3s ease-in;
+.nav--mobile {
+    font-family: $font-family-primary;
 }
-
-.nav .nav--btn.nav-open{
-    background-color: $primary-contrast-color;
-}
+.nav--mobile__item {
+    color: $secundary-background-color;
+} 

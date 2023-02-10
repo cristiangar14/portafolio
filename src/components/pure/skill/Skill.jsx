@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
-import { Tooltip } from 'reactstrap';
+import React from 'react';
 
 import './skill.scss';
 
 const Skill = ({ data }) => {
     const target = `skill${data.id}`;
-    const [tooltipOpen, setTooltipOpen] = useState(false);
-    const toggle = () => setTooltipOpen(!tooltipOpen);
 
   return (
     <div className="skill">
@@ -14,15 +11,9 @@ const Skill = ({ data }) => {
       <p id={target}>
         {data.title}
       </p>
-      <Tooltip
-        autohide
-        flip
-        isOpen={tooltipOpen}
-        target={target}
-        toggle={toggle}
-      >
+      <div>
         {data.description}
-      </Tooltip>
+      </div>
     </div>
   );
 };

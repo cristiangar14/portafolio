@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react';
 import { useParams } from 'react-router-dom';
-import { Container } from 'reactstrap';
 import { getExperienceDetail } from '../../services/data';
 
 import './experienceDetail.scss';
@@ -13,7 +12,7 @@ const ExperienceDetail = () => {
     ), [params.id]);
 
     return (
-      <Container className="experienceDetails">
+      <div className="experienceDetails">
         <div className="experienceDetails__company">
           <h2>{data.company}</h2>
           <div className="experienceDetails__image">
@@ -25,7 +24,7 @@ const ExperienceDetail = () => {
           <h3>Funciones</h3>
           <p>{data.functions}</p>
         </div>
-      </Container>
+      </div>
     );
 };
 

@@ -1,5 +1,4 @@
 import React, { useMemo } from 'react';
-import { Container } from 'reactstrap';
 import CarrouselBasic from '../../components/containers/carouselBasic/CarouselBasic';
 import { getPortfolio } from '../../services/data';
 
@@ -15,7 +14,7 @@ const PortfolioPage = () => {
   ), []);
 
     return (
-      <Container className="portfolio">
+      <div className="portfolio">
         <h2>Portafolio</h2>
         <div className="">
           <h3>Profesional</h3>
@@ -25,7 +24,7 @@ const PortfolioPage = () => {
           <h3>Educativo</h3>
           <CarrouselBasic data={dataE} />
         </div>
-      </Container>
+      </div>
     );
 };
 

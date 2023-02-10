@@ -2,6 +2,10 @@
 logs
 *.log
 
+.firebase/
+.firebaserc
+firebase.json
+
 # Runtime data
 pids
 *.pid

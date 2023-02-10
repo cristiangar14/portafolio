@@ -3,9 +3,9 @@ import { NavLink as RouterNavLink } from 'react-router-dom';
 
 import './linkNav.scss';
 
-const LinkNav = ({ to, children }) => {
+const LinkNav = ({ to, children, cls }) => {
   return (
-    <RouterNavLink to={to}>
+    <RouterNavLink className={cls} to={to}>
       {children}
     </RouterNavLink>
   );

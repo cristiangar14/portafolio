@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'reactstrap';
 
 import './aboutPage.scss';
 
@@ -10,7 +9,7 @@ import SocialMedia from '../../components/containers/socialMedia/SocialMedia';
 
 const AboutPage = () => {
     return (
-      <Container className="about">
+      <div className="about">
         <div className="about--image">
           <img src="https://t4.ftcdn.net/jpg/03/32/23/29/240_F_332232901_5QMxfW9GadHG7Cg8dP3j2bCmRQxhfgob.jpg" alt="imagen prueba" />
         </div>
@@ -51,7 +50,7 @@ const AboutPage = () => {
           <h3>Redes Sociales</h3>
           <SocialMedia />
         </div>
-      </Container>
+      </div>
     );
 };
 
