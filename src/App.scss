@@ -14,7 +14,7 @@
     grid-template-rows: min-content 1fr min-content; 
     gap: 0px 0px; 
     grid-template-areas: 
-        "nav"
+        "navArea"
         "main"
         "footer";
     overflow-x: hidden;
@@ -46,7 +46,7 @@ html, body {
     padding: 0;
   }
 
-  .nav { grid-area: nav; }
+.nav { grid-area: navArea; }
 
 .main {
     position: relative;
