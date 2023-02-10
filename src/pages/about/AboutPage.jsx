@@ -3,13 +3,14 @@ import React from 'react';
 import './aboutPage.scss';
 
 import { Link } from 'react-router-dom';
+import { Container } from '@mui/material';
 import { skillsData, textsAbout } from '../../mocks/about.mocks';
 import Skill from '../../components/pure/skill/Skill';
 import SocialMedia from '../../components/containers/socialMedia/SocialMedia';
 
 const AboutPage = () => {
     return (
-      <div className="about">
+      <Container className="about">
         <div className="about--image">
           <img src="https://t4.ftcdn.net/jpg/03/32/23/29/240_F_332232901_5QMxfW9GadHG7Cg8dP3j2bCmRQxhfgob.jpg" alt="imagen prueba" />
         </div>
@@ -50,7 +51,7 @@ const AboutPage = () => {
           <h3>Redes Sociales</h3>
           <SocialMedia />
         </div>
-      </div>
+      </Container>
     );
 };
 
