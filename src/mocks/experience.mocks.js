@@ -2,7 +2,7 @@
 export const dataExperiences = [
     {
         id: '1',
-        logo: 'https://static.wixstatic.com/media/b52c48_098b66a09b1c40709f46f1ef44607858~mv2.jpg/v1/fit/w_2500,h_1330,al_c/b52c48_098b66a09b1c40709f46f1ef44607858~mv2.jpg',
+        logo: 'https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/softpymes%2Flogo.webp?alt=media&token=f22cf725-83db-4daa-ba16-dfb93ef75590',
         company: 'Softpymes',
         jobTitle: 'Desarrollador de software',
         summary: 'Utilizando la metodolia Kanban-Scrum y herramientas como javascript, CSS, HTML, SQL, AngualrJS, Angular 13, DevExpress, git entre otras, dar manetniemiento al software comercializado por la compañia, asi mismo implementar nuevas funcionaldades propias de las reglas de negocio.',
@@ -12,7 +12,7 @@ export const dataExperiences = [
     },
     {
         id: '2',
-        logo: 'https://cdn.connectamericas.com/sites/default/files/styles/company_public_profile_picture/public/company-354163-1639174425.png?itok=cL7LruYI',
+        logo: 'https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/mbo%2Flogo.webp?alt=media&token=a7ad48ba-c6d3-4970-a5b2-e0c34238b6a1',
         company: 'MBO Ingeniera de software',
         jobTitle: 'Analista Funcional',
         summary: 'Mediante la herramienta Oracle apex crear funcionalidades para diferente software empresarial, agregando reportes interactivos, descargas de documentos y en genral funcionaldiades propias del lado de negocio',
@@ -22,7 +22,7 @@ export const dataExperiences = [
     },
     {
         id: '3',
-        logo: 'https://scontent.fpei1-1.fna.fbcdn.net/v/t39.30808-6/277679701_406376621412797_1142574496299262749_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFDId1lVTUg3ozes7mGVH8GlwQ28djVKoCXBDbx2NUqgK6X2WSvzz2X_5p_D2MOAYA&_nc_ohc=6mYQiQKZiC4AX8R53hG&_nc_ht=scontent.fpei1-1.fna&oh=00_AfAyqD9Y43mCGjcHIiVDL5HzCz-7ZmiUAp_Kn6cH2CrUQw&oe=63E2FF73',
+        logo: 'https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/suwwweb%2Flogo.webp?alt=media&token=260c9080-fcdc-4950-be21-75cd941d5e62',
         jobTitle: 'Programador Web Junior',
         company: 'Suwwweb',
         summary: 'Crear y darle mantenimiento a direfentes paginas web, instalacion de SSL, creacion de correos corporativos, manejo del CPanel, direccionamiento de DNS...',

@@ -9,9 +9,9 @@ export const dataPortfolio = [
         category: 'P',
         tecnology: [
             {
-                id: '',
-                name: '',
-                logo: '',
+                id: '1',
+                name: 'Javascript',
+                logo: 'https://cdn.worldvectorlogo.com/logos/logo-javascript.svg',
 
             },
         ],
@@ -26,13 +26,25 @@ export const dataPortfolio = [
         ],
         shortImage: {
             id: 1,
-            url: 'https://picsum.photos/800/600?random=1',
+            url: 'https://console.firebase.google.com/u/0/project/portafolio-735ee/storage/portafolio-735ee.appspot.com/files/~2Fsoftpymes?hl=es-419',
             alt: 'shortImage',
         },
         images: [
             {
                 id: 1,
-                url: '',
+                url: 'https://console.firebase.google.com/u/0/project/portafolio-735ee/storage/portafolio-735ee.appspot.com/files/~2Fsoftpymes?hl=es-419',
+            },
+            {
+                id: 2,
+                url: 'https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/softpymes%2Fimg2.webp?alt=media&token=ac459df3-5095-473b-9f32-ee1b612aea9d',
+            },
+            {
+                id: 3,
+                url: 'https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/softpymes%2Fimg3.webp?alt=media&token=7d4b3379-5cb4-4f8e-b8d4-d1aae49ea5a9',
+            },
+            {
+                id: 3,
+                url: 'https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/softpymes%2Fimg4.webp?alt=media&token=bddc477d-7dd7-4ede-9a51-8266a6c50a66',
             },
         ],
     },
@@ -145,7 +157,7 @@ export const dataPortfolio = [
         ],
     },
     {
-        id: 4,
+        id: 5,
         title: 'sitiosic',
         subtitle: 'Suwwweb',
         shortDescription: 'landing page, realizada para empresa dedicada a prestar servicios de ingeniera en Colom',
