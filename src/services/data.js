@@ -9,11 +9,8 @@ export const getExperienceDetail = (id) => (
     )
 );
 
-export const getPortfolio = (category) => (
-    dataPortfolio.filter(
-        // eslint-disable-next-line eqeqeq
-        (experience) => experience.category == category,
-    )
+export const getPortfolio = () => (
+    dataPortfolio
 );
 
 export const getPortfolioDetail = (id) => (
