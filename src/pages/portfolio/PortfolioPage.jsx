@@ -1,30 +1,35 @@
 import React, { useMemo } from 'react';
-import CarrouselBasic from '../../components/containers/carouselBasic/CarouselBasic';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { Container } from '@mui/system';
+import CardItem from '../../components/pure/cardItem/CardItem';
 import { getPortfolio } from '../../services/data';
 
 import './portfolioPage.scss';
 
 const PortfolioPage = () => {
-  const dataP = useMemo(() => (
-        getPortfolio('P')
+  const data = useMemo(() => (
+        getPortfolio()
   ), []);
 
-  const dataE = useMemo(() => (
-        getPortfolio('E')
-  ), []);
+  // const dataE = useMemo(() => (
+  //       getPortfolio('E')
+  // ), []);
 
     return (
-      <div className="portfolio">
+      <Container className="portfolio">
         <h2>Portafolio</h2>
-        <div className="">
-          <h3>Profesional</h3>
-          <CarrouselBasic data={dataP} />
-        </div>
-        <div className="">
-          <h3>Educativo</h3>
-          <CarrouselBasic data={dataE} />
-        </div>
-      </div>
+        <ul className="portfolio--list">
+          {
+            data.map((el) => {
+              return (
+                <li key={`card-${el.id}`}>
+                  <CardItem data={el} />
+                </li>
+              );
+            })
+          }
+        </ul>
+      </Container>
     );
 };
 
