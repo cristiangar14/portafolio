@@ -1,0 +1,24 @@
+@import '../../../styles/variables.scss';
+
+.linksProyect {
+    a {
+        display: flex;
+        justify-items: center;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color: $primary-contrast-color;
+        
+        .linksProyect--icon{
+            font-size: 1.5rem;
+            margin-right: 0.2rem;
+            color: $primary-font-color;
+        }
+    }
+}
+
+.linksProyect a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: $primary-contrast-color;
+    color: $primary-font-color;
+}
