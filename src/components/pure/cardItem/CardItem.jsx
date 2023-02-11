@@ -8,7 +8,7 @@ const CardItem = ({ data }) => {
       <Link to={`/portfolio/${data.id}`} className="smallCard">
         <div className="smallCard--container">
           <div className="smallCard--image">
-            <img src="https://picsum.photos/800/600?random=1" alt="reandom" />
+            <img src={data.shortImage.url} alt={data.shortImage.alt} />
           </div>
           <div className="smallCard--content">
             <h4>{data.title}</h4>
