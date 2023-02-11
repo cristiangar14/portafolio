@@ -1,0 +1,13 @@
+@import '../../../styles/variables.scss';
+.technologies--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: $primary-contrast-color;
+    padding: 2rem;
+    li {
+        margin: 0;
+        color: $secundary-background-color;
+    }
+}
