@@ -6,7 +6,7 @@ export const dataPortfolio = [
         subtitle: 'Softpymes',
         shortDescription: 'Software contable para pymes, Participación en el desarrollo del front y solucion de bugs',
         description: 'texto prueba',
-        category: 'P',
+        category: 'Profesional',
         tecnology: [
             {
                 id: '1',
@@ -50,11 +50,11 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: 'Pymes +',
-        subtitle: 'Softpymes',
-        shortDescription: 'Software contable para pymes, Participación en el desarrollo del front y solucion de bugs',
+        title: 'B-Energy',
+        subtitle: 'MBO Ingenieria',
+        shortDescription: 'Software para el reporte de consumod e gas natural de las grandes industrias en Colombia',
         description: 'texto prueba',
-        category: 'E',
+        category: 'Profesional',
         tecnology: [
             {
                 id: '',
@@ -86,11 +86,11 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: 'B-Energy',
+        title: 'Icontect',
         subtitle: 'MBO Ingenieria',
-        shortDescription: 'Software para el reporte de consumod e gas natural de las grandes industrias en Colombia',
+        shortDescription: 'Software implementado para optimizar el proceso de generacion de los certificados.',
         description: 'texto prueba',
-        category: 'P',
+        category: 'Profesional',
         tecnology: [
             {
                 id: '',
@@ -122,11 +122,11 @@ export const dataPortfolio = [
     },
     {
         id: 4,
-        title: 'Icontect',
-        subtitle: 'MBO Ingenieria',
-        shortDescription: 'Software implementado para optimizar el proceso de generacion de los certificados.',
+        title: 'sitiosic',
+        subtitle: 'Suwwweb',
+        shortDescription: 'landing page, realizada para empresa dedicada a prestar servicios de ingeniera en Colom',
         description: 'texto prueba',
-        category: 'P',
+        category: 'Profesional',
         tecnology: [
             {
                 id: '',
@@ -158,11 +158,11 @@ export const dataPortfolio = [
     },
     {
         id: 5,
-        title: 'sitiosic',
-        subtitle: 'Suwwweb',
-        shortDescription: 'landing page, realizada para empresa dedicada a prestar servicios de ingeniera en Colom',
+        title: 'Pymes +',
+        subtitle: 'Softpymes',
+        shortDescription: 'Software contable para pymes, Participación en el desarrollo del front y solucion de bugs',
         description: 'texto prueba',
-        category: 'P',
+        category: 'Educativo',
         tecnology: [
             {
                 id: '',
