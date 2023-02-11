@@ -2,7 +2,7 @@
 export const textsAbout = [
     {
         id: 1,
-        text: 'Soy un apasionado desarrollador frontend colombiano con sede en la vibrante ciudad de Ibagué, Colombia, con más de 3 años de experiencia en la construcción de aplicaciones web de alta calidad. Mi fortaleza radica en el lenguaje JavaScript, consumo de API REST, enfocado en la experiencia de usuario y en CLEAN CODE, lo que me permite trabajar con agilidad y eficacia en los proyectos que me encomiendan. Como autodidacta, me esfuerzo por mantenerme actualizado y mejorar constantemente mis habilidades. He tenido la oportunidad de manejar diferentes frameworks y librerías, como AngularJS y Angular 13, y trabajar con metodologías ágiles.',
+        text: 'Soy un apasionado desarrollador frontend colombiano con sede en la vibrante ciudad de Ibagué, Colombia, con más de 3 años de experiencia en la construcción de aplicaciones web de alta calidad. Mi fortaleza radica en el lenguaje JavaScript, consumo de API REST, enfocado en la experiencia de usuario y en CLEAN CODE, lo que me permite trabajar con agilidad y eficacia en los proyectos que me encomiendan. Como autodidacta, me esfuerzo por mantenerme actualizado y mejorar constantemente mis habilidades. He tenido la oportunidad de manejar diferentes frameworks y librerías, como AngularJS y Angular 15, y trabajar con metodologías ágiles.',
     },
     {
         id: 2,
