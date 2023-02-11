@@ -12,7 +12,7 @@ const CardItem = ({ data }) => {
           </div>
           <div className="smallCard--content">
             <h4>{data.title}</h4>
-            <h5>{data.subtitle}</h5>
+            <h5>{data.category}</h5>
             <p>{data.shortDescription}</p>
             <p className="smallCard--details">Ver mas...</p>
           </div>
