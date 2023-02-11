@@ -14,6 +14,7 @@ import ExperiencePage from '../pages/experience/ExperiencePage';
 import ExperienceDetail from '../pages/experienceDetail/ExperienceDetail';
 import HomePage from '../pages/home/HomePage';
 import PortfolioPage from '../pages/portfolio/PortfolioPage';
+import PortfolioDetail from '../pages/portfolioDetail/PortfolioDetail';
 import ResourcesPage from '../pages/resources/ResourcesPage';
 
 const Routing = () => {
@@ -28,6 +29,7 @@ const Routing = () => {
             <Route exact path="/experience" element={<ExperiencePage />} />
             <Route exact path="/experience/:id" element={<ExperienceDetail />} />
             <Route exact path="/portfolio" element={<PortfolioPage />} />
+            <Route exact path="/portfolio/:id" element={<PortfolioDetail />} />
             <Route exact path="/resources" element={<ResourcesPage />} />
             <Route exact path="/contact" element={<ContactPage />} />
             <Route path="*" element={<NotFoundPage />} />
