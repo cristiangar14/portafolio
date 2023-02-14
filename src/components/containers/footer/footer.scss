@@ -17,6 +17,7 @@
             grid-template-rows: 1fr;
             grid-column-gap: 0px;
             grid-row-gap: 0px;
+            margin: auto;
         }
         
     }
@@ -39,9 +40,6 @@
     }
     
     .footer--right {
-        h2 {
-
-        }
         a {
             color: $primary-font-color;
             display: flex;
@@ -68,6 +66,7 @@
 
         p {
             margin: 0;
+            vertical-align: middle;
         }
     }
 }
