@@ -1,8 +1,9 @@
-import { Container } from '@mui/material';
+import { Container, ThemeProvider } from '@mui/material';
 import React from 'react';
 import { EnvelopeAtFill, PhoneFill } from 'react-bootstrap-icons';
 import ContactFormContainer from '../../components/containers/contactFormContainer/ContactFormContainer';
 import SocialMedia from '../../components/containers/socialMedia/SocialMedia';
+import theme from '../../theme';
 
 import './contactPage.scss';
 
@@ -12,7 +13,9 @@ const ContactPage = () => {
         <h1>Contactame</h1>
         <div className="contact--container">
           <div className="contact--form">
-            <ContactFormContainer className="" />
+            <ThemeProvider theme={theme}>
+              <ContactFormContainer className="" />
+            </ThemeProvider>
           </div>
           <div className="contact--info">
             <div className="">
