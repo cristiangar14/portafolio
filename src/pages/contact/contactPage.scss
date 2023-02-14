@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+
+.contact{
+  padding: 2rem;
+
+  h1 {
+    padding-bottom: 2rem;
+    text-align: center;
+    color: $primary-contrast-color;
+  }
+
+
+  .contact--form { 
+    padding: 1rem;
+    background-color: #e8f0fe;
+    border-radius: 5px;
+  }
+
+  .contact--info {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    a {
+      color: $primary-font-color;
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      transition: all 0.3s ease-in;
+      p {
+          margin: 0 0 0 10px;
+          font-size: $font-size-p-small;
+          @media (min-width: $breakpoint-mobile ) {
+            font-size: $font-size-p-regular;
+          }
+      }
+    }
+    a:hover{
+        color: $primary-contrast-color;
+    }
+  }
+
+  @media (min-width: $breakpoint-mobile ) {
+    .contact--container{
+      display: grid; 
+      grid-auto-columns: 1fr; 
+      grid-template-columns: 1fr 1fr; 
+      grid-template-rows: min-content min-content; 
+      gap: 2em 2em; 
+      grid-template-areas: 
+        "contact--form contact--info"
+        "contact--form contact--social"; 
+    }
+
+    .contact--form { grid-area: contact--form; }
+    .contact--info { 
+      margin-top: 0;
+      grid-area: contact--info; }
+    .contact--social { grid-area: contact--social; }
+
+  }
+}
