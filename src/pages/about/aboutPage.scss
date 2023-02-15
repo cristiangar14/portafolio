@@ -9,14 +9,19 @@ main .about{
 
     .about--text{
 
-        h2 {
+        h1 {
             margin-bottom: 1rem;
+            color: $primary-contrast-color;
         }
 
         a {
             text-decoration: none;
             color: $primary-contrast-color;
         }
+    }
+
+    h3 {
+        margin-bottom: 1rem;
     }
 
     .about--skills, .about--social{

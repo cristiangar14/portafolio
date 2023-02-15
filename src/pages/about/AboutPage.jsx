@@ -15,7 +15,7 @@ const AboutPage = () => {
           <img src="https://t4.ftcdn.net/jpg/03/32/23/29/240_F_332232901_5QMxfW9GadHG7Cg8dP3j2bCmRQxhfgob.jpg" alt="imagen prueba" />
         </div>
         <div className="about--text">
-          <h2>Hola! Soy Cristian Garzón</h2>
+          <h1>Hola! Soy Cristian Garzón</h1>
           <div className="">
             {
               textsAbout.map((el) => {
