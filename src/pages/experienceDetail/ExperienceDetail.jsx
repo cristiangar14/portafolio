@@ -1,3 +1,4 @@
+import { Container } from '@mui/material';
 import React, { useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 import { getExperienceDetail } from '../../services/data';
@@ -12,7 +13,7 @@ const ExperienceDetail = () => {
     ), [params.id]);
 
     return (
-      <div className="experienceDetails">
+      <Container className="experienceDetails">
         <div className="experienceDetails__company">
           <h2>{data.company}</h2>
           <div className="experienceDetails__image">
@@ -24,7 +25,7 @@ const ExperienceDetail = () => {
           <h3>Funciones</h3>
           <p>{data.functions}</p>
         </div>
-      </div>
+      </Container>
     );
 };
 

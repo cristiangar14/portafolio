@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .experienceDetails{
-    padding-top: 2rem;
+    padding: 2rem 0;
     color: $primary-font-color;
 
     h2 {
@@ -21,8 +21,9 @@
 
     .experienceDetails__company{
         .experienceDetails__image{
-            max-width: 450px;
-            margin-bottom: 10px;
+            max-width: 300px;
+            margin-bottom: 2rem;
+            margin: auto;
             img {
                 min-width: 100%;
                 max-width: 100%;
@@ -48,11 +49,12 @@
 
         .experienceDetails__company {
             grid-area: experienceDetails__company;
-            margin-bottom: 0;
+            margin-bottom: 0.5rem;
             .experienceDetails__image{
                 float: left;
                 margin-right: 10px;
                 margin-bottom: 0;
+                max-width: 300px;
             }
         }
         
