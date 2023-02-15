@@ -10,18 +10,18 @@ const Skill = ({ data }) => {
     const Skl = forwardRef((props, ref) => {
       //  Spread the props to the underlying DOM element.
       return (
-        // eslint-disable-next-line react/jsx-props-no-spreading
-        <div {...props} ref={ref}>
+        // eslint-disable-next-line react/jsx-props-no-spreading, react/button-has-type
+        <button {...props} ref={ref} className="skill">
           <img className="skill--logo" src={data.logo} alt={data.title} />
           <p id={target}>
             {data.title}
           </p>
-        </div>
+        </button>
       );
     });
 
   return (
-    <Tooltip title={data.description} className="skill" arrow placement="top-start">
+    <Tooltip title={data.description} enterTouchDelay={0} enterDelay={0} leaveDelay={0} arrow>
       <Skl />
     </Tooltip>
   );
