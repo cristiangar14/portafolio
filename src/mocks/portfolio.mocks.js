@@ -319,40 +319,4 @@ export const dataPortfolio = [
             },
         ],
     },
-    {
-        id: 5,
-        title: 'Pymes +',
-        subtitle: 'Softpymes',
-        shortDescription: 'Software contable para pymes, Participación en el desarrollo del front y solucion de bugs',
-        description: 'texto prueba',
-        category: 'Educativo',
-        technologies: [
-            {
-                id: '',
-                name: '',
-                logo: '',
-
-            },
-        ],
-        links: [
-            {
-                id: '',
-                name: '',
-                logo: '',
-                url: '',
-
-            },
-        ],
-        shortImage: {
-            id: 1,
-            url: 'https://picsum.photos/800/600?random=1',
-            alt: 'shortImage',
-        },
-        images: [
-            {
-                id: 1,
-                url: '',
-            },
-        ],
-    },
 ];
