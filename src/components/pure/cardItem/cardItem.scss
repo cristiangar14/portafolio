@@ -5,38 +5,27 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
-    min-height: 400px;
+    min-height: 440px;
 
     .cardItem--container{
         text-decoration: none;
-        display: grid; 
-        grid-template-columns: 1fr; 
-        grid-template-rows: 1fr min-content; 
-        gap: 10px 50px;
-        place-items: center;
-        grid-template-areas: 
-            "cardItem--image"
-            "cardItem-content";
+        display: flex; 
+        flex-direction: column;
         background-color: $secundary-background-color;
         border-radius: 0.375rem;
         transition: all 0.3s ease-in;
             
         .cardItem--image{
-            grid-area: cardItem--image;
-            max-width: 250px;
-    
-            img {
-                max-width: 100%;
-                min-width: 100%;
-                height: auto;
-                border-radius: 0.375rem 0.375rem 0 0;
-            }
+            max-height: 40%;
         }
     
         .cardItem--content { 
-            grid-area: cardItem-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             width: 100%;
             max-width: 250px;
+            height: 60%;
             color: $primary-font-color;
             padding-left: 0.5rem;
             padding-right: 0.5rem;
