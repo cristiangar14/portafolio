@@ -2,7 +2,7 @@
 export const dataExperiences = [
     {
         id: '1',
-        logo: 'https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/softpymes%2Flogo.webp?alt=media&token=f22cf725-83db-4daa-ba16-dfb93ef75590',
+        logo: 'https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/softpymes%2Flogo.webp?alt=media&token=5b38571c-3b73-4d98-ad16-3fe0ef9a8692',
         company: 'Softpymes',
         jobTitle: 'Desarrollador de software',
         summary: 'Utilizando la metodolia Kanban-Scrum y herramientas como javascript, CSS, HTML, SQL, AngualrJS, Angular 13, DevExpress, git entre otras, dar manetniemiento al software comercializado por la compañia, asi mismo implementar nuevas funcionaldades propias de las reglas de negocio.',
@@ -22,7 +22,7 @@ export const dataExperiences = [
     },
     {
         id: '3',
-        logo: 'https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/suwwweb%2Flogo.webp?alt=media&token=260c9080-fcdc-4950-be21-75cd941d5e62',
+        logo: 'https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2Flogo.webp?alt=media&token=475b2545-7c8d-437c-bc0f-c856e4572bac',
         jobTitle: 'Programador Web Junior',
         company: 'Suwwweb',
         summary: 'Crear y darle mantenimiento a direfentes paginas web, instalacion de SSL, creacion de correos corporativos, manejo del CPanel, direccionamiento de DNS...',
