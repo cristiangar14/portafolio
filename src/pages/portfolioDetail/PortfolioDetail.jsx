@@ -1,10 +1,11 @@
-import { Container } from '@mui/material';
+import { Button, Container, ThemeProvider } from '@mui/material';
 import React, { useMemo } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import Linksproyects from '../../components/containers/linksProyects/Linksproyects';
 import Slider from '../../components/containers/slider/Slider';
 import Tecnologies from '../../components/containers/technologies/Technologies';
 import { getPortfolioDetail } from '../../services/data';
+import theme from '../../theme';
 
 import './portfolioDetail.scss';
 
@@ -14,6 +15,12 @@ const PortfolioDetail = () => {
     const data = useMemo(() => (
       getPortfolioDetail(params.id)
     ), [params.id]);
+
+    const navigate = useNavigate();
+
+    const handleNavigation = () => {
+      navigate('/portfolio');
+    };
 
     return (
       <div className="portfolioDetails">
@@ -34,7 +41,11 @@ const PortfolioDetail = () => {
                 data.links.length ? <Linksproyects links={data.links} /> : <p>Links privados</p>
               }
             </div>
-            <div className="portfolioDetails--bottom">5</div>
+            <div className="portfolioDetails--bottom">
+              <ThemeProvider theme={theme}>
+                <Button onClick={handleNavigation} variant="outlined">Volver al portafolio</Button>
+              </ThemeProvider>
+            </div>
           </div>
         </Container>
       </div>

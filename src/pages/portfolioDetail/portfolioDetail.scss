@@ -39,6 +39,9 @@
         }
         .portfolioDetails--tecnologies { grid-area: portfolioDetails--tecnologies; }
         .portfolioDetails--links { grid-area: portfolioDetails--links; }
-        .portfolioDetails--bottom { grid-area: portfolioDetails--bottom; }
+        .portfolioDetails--bottom { 
+            grid-area: portfolioDetails--bottom; 
+            padding: 0 2rem;
+        }
     }
 }
