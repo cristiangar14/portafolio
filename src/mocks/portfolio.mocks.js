@@ -167,13 +167,13 @@ export const dataPortfolio = [
         ],
         shortImage: {
             id: 1,
-            url: 'https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Ficont2.webp?alt=media&token=18a67165-4866-4747-a2ac-976deac192b7',
+            url: 'https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Ficont2.webp?alt=media&token=74821d8e-9c3b-4baf-b926-3d154d5c56a2',
             alt: 'shortImage',
         },
         images: [
             {
                 id: 1,
-                url: 'https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Ficont2.webp?alt=media&token=18a67165-4866-4747-a2ac-976deac192b7',
+                url: 'https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Ficont2.webp?alt=media&token=74821d8e-9c3b-4baf-b926-3d154d5c56a2',
                 alt: 'Image slide',
             },
             {
