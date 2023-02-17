@@ -3,3 +3,13 @@
 .slider {
     max-width: 100%;
 }
+
+.slide--image__container {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.slide--image__container .MuiCardMedia-root {
+    background-position: top;
+}

@@ -5,6 +5,7 @@ import SwiperCore, {
 } from 'swiper';
 
 import './slider.scss';
+import { CardMedia } from '@mui/material';
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 const Slider = ({ data }) => {
@@ -25,7 +26,13 @@ const Slider = ({ data }) => {
               data.map((el) => {
                 return (
                   <SwiperSlide key={`slide-${el.id}`}>
-                    <img src={el.url} alt="imagen" />
+                    <div className="slide--image__container">
+                      <CardMedia
+                        sx={{ height: 400 }}
+                        image={el.url}
+                        title={el.alt}
+                      />
+                    </div>
                   </SwiperSlide>
                 );
               })
