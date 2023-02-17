@@ -25,9 +25,9 @@ export const dataExperiences = [
         logo: 'https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2Flogo.webp?alt=media&token=475b2545-7c8d-437c-bc0f-c856e4572bac',
         jobTitle: 'Programador Web Junior',
         company: 'Suwwweb',
-        summary: 'Crear y darle mantenimiento a direfentes paginas web, instalacion de SSL, creacion de correos corporativos, manejo del CPanel, direccionamiento de DNS...',
+        summary: 'Creación y mantenimiento de sitios web optimizados, instalación y configuración de SSL, creación y gestión de correos corporativos, manejo del CPanel y direccionamiento de DNS.',
         companyDescription: 'Esta empresa se especializa en servicios de tecnología y desarrollo web. Ofrecen una amplia gama de soluciones, incluyendo desarrollo de sitios web, aplicaciones móviles, e-commerce, marketing digital y optimización de motores de búsqueda. La empresa cuenta con un equipo altamente capacitado de ingenieros de software y expertos en marketing digital que trabajan juntos para brindar soluciones innovadoras y efectivas a sus clientes. Suwwweb se enorgullece de brindar un servicio excepcional y de tener un enfoque en las necesidades individuales de cada cliente para garantizar la satisfacción total.',
         functions: 'Como desarrollador web en mi anterior trabajo, me encargaba de crear páginas web siguiendo los diseños y requerimientos de la compañía. Me aseguraba de optimizar cada página para garantizar una experiencia de usuario óptima, incluyendo la legibilidad, el peso de imágenes y la calidad. Además, también brindaba mantenimiento a proyectos previamente desarrollados en tecnologías como HTML, CSS, javascript, Wordpress y Joomla. Esto incluía la implementación de nuevas funcionalidades, como sliders y banners, la modificación de datos de contacto, la corrección de formularios de contacto y la integración de servicios de Google como reCAPTCHA y Google Analytics. También trabajé en la creación de correos corporativos en CPanel o Zoho y en el direccionamiento de DNS para correos o dominios.',
-        dates: '15-07-2022 / Ocasionalmente',
+        dates: '15-07-2020 / Ocasionalmente',
     },
 ];
