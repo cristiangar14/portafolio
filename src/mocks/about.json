@@ -1,0 +1,485 @@
+{
+  "abouttexts": [
+    {
+        "id": 1,
+        "text": "Soy un apasionado desarrollador frontend colombiano con sede en la vibrante ciudad de Ibagué, Colombia, con más de 3 años de experiencia en la construcción de aplicaciones web de alta calidad. Mi fortaleza radica en el lenguaje JavaScript, consumo de API REST, enfocado en la experiencia de usuario y en CLEAN CODE, lo que me permite trabajar con agilidad y eficacia en los proyectos que me encomiendan. Como autodidacta, me esfuerzo por mantenerme actualizado y mejorar constantemente mis habilidades. He tenido la oportunidad de manejar diferentes frameworks y librerías, como AngularJS y Angular 15, y trabajar con metodologías ágiles."
+    },
+    {
+        "id": 2,
+        "text": "Además, tengo conocimientos básicos en ReactJS, TypeScript, SASS y diferentes frameworks de CSS como Bootstrap y Materialize. También tengo experiencia en el uso de herramientas low code como WordPress y Apex Oracle en mantenimiento de páginas y proyectos empresariales."
+    },
+    {
+        "id": 3,
+        "text": "He trabajado de forma remota para equipos en diferentes ciudades y culturas en la industria IT, lo que me ha permitido desarrollar habilidades en la colaboración y el trabajo en equipo. Estoy disponible para trabajar en proyectos remotos y tengo la capacidad de colaborar en un entorno multicultural. He participado en mantenimiento de diferentes páginas web y en proyectos empresariales, incluyendo un software de gestión del consumo de gas natural de grandes industrias y un software contable utilizado por más de 1000 pequeñas y medianas empresas en Colombia."
+    },
+    {
+        "id": 4,
+        "text": "Sigo comprometido a crecer en mi carrera y aplicar mis conocimientos para lograr resultados sobresalientes en proyectos interesantes y desafiantes. Manejo eficientemente el control de versiones con Git y tengo como objetivo aprender inglés y convertirme en un desarrollador full-stack para poder trabajar en proyectos de mayor envergadura."
+    },
+    {
+        "id": 5,
+        "text": "Si desea conocer más sobre mi experiencia y portafolio, por favor visite los respectivos menús en mi perfil."
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "category": "Organizanción",
+      "title": "Notion",
+      "url": "https://www.notion.so/es-es",
+      "description": "Crear Kanban, agendas, notas"
+    },
+    {
+      "id": 2,
+      "category": "desarrollo",
+      "title": "AngularJS",
+      "url": "https://docs.angularjs.org/api/ng/directive/ngModel",
+      "description": "documentación oficial de AngularJS"
+    },
+    {
+      "id": 3,
+      "category": "desarrollo",
+      "title": "AngularJS",
+      "url": "https://docs.angularjs.org/api/ng/directive/ngModel",
+      "description": "documentación oficial de AngularJS"
+    },
+    {
+      "id": 4,
+      "category": "Diseño",
+      "title": "onlineconvertfree",
+      "url": "https://onlineconvertfree.com/es/convert/jpeg/",
+      "description": "Convertir imagenes a webp y diferentes formatos"
+    },
+    {
+      "id": 5,
+      "category": "Diseño",
+      "title": "worldvectorlog",
+      "url": "https://worldvectorlogo.com/",
+      "description": "Biblioteca de logos en svg gratis"
+    },
+    {
+      "id": 6,
+      "category": "Diseño",
+      "title": "favicon.io",
+      "url": "https://favicon.io/favicon-generator/",
+      "description": "Generador de Favicons gratis"
+    },
+    {
+      "id": 7,
+      "category": "Diseño",
+      "title": "svg porn",
+      "url": "https://svgporn.com/",
+      "description": "Biblioteca de logos en svg gratis"
+    },
+    {
+      "id": 8,
+      "category": "Desarrollo",
+      "title": "roadmap",
+      "url": "https://roadmap.sh/",
+      "description": "Rutas de aprendizaje de desarrollo"
+    }
+  ],
+  "portfolio": [
+    {
+        "id": 1,
+        "title": "Pymes + V2",
+        "subtitle": "Softpymes",
+        "shortdescription": "Software contable para pymes, Participación en el desarrollo de nuevas funcionalides en el frontend y solución de bugs o historias de usuario.",
+        "description": "Implemnetando la metodologia agile de Kanban, participo desarrollando nuevas funcionalidades utilizando herramientas como Javascriop, CSS3, HTML, AngularJS, peticiones a una API REST, Github para el control de versiones, y consultas SQL, Tambien participo en la solción de bugs o historias de usuario que son reportados por el cliente mediante el personal de servicio al cliente.",
+        "category": "Profesional",
+        "technologies": [
+            {
+                "id": 1,
+                "name": "Javascript",
+                "logo": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+            },
+            {
+                "id": 2,
+                "name": "CSS3",
+                "logo": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+            },
+            {
+                "id": 3,
+                "name": "HTML",
+                "logo": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+            },
+            {
+                "id": 4,
+                "name": "AngularJs",
+                "logo": "https://cdn.worldvectorlogo.com/logos/angular.svg"
+            },
+            {
+                "id": 5,
+                "name": "GitHub",
+                "logo": "https://cdn.worldvectorlogo.com/logos/github-icon.svg"
+            },
+            {
+                "id": 6,
+                "name": "SQL",
+                "logo": "https://cdn.worldvectorlogo.com/logos/microsoft-sql-server-1.svg"
+            }
+        ],
+        "links": [
+            {
+                "id": 1,
+                "name": "Sitio web",
+                "url": "https://www.softpymes.com.co/"
+            }
+        ],
+        "shortImage": {
+            "id": 1,
+            "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/softpymes%2Fpymes3.webp?alt=media&token=9e42fb75-d6f8-4f1d-97c8-f2c33074d37c",
+            "alt": "Vista del proyecto"
+        },
+        "images": [
+            {
+                "id": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/softpymes%2Fpymes1.webp?alt=media&token=1ae6acb2-f32d-4503-b866-ca327f3413ef",
+                "alt": "Image slide"
+            },
+            {
+                "id": 2,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/softpymes%2Fpymes2.webp?alt=media&token=dae8a447-cc18-48c7-a306-7d3569313be0",
+                "alt": "Image"
+            },
+            {
+                "id": 3,
+                "url": "https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/softpymes%2Fimg3.webp?alt=media&token=7d4b3379-5cb4-4f8e-b8d4-d1aae49ea5a9",
+                "alt": "Image"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "B-Energy",
+        "subtitle": "MBO Ingenieria",
+        "shortdescription": "Software para el analisis, control y reporte de consumo de gas natural de las grandes industrias en Colombia",
+        "description": "En este proyecto participe llevando a cabo las solicitudes del cliente en cuanto a autamatizacion del proceso interno para el analisis, control y reporte de consumos de gas natural de las grandes industrias en colombia utilizando herramientas como oracle apex, PL-SQL, SQL ORACLE, CSS3, Javascripta, realizando consultas a la base de datos, creando vistas dinamicas y demas requerimientos del cliente, como reportes descargables o graficos, de igual forma atender las solucitudes del cliente mediante un aplicativo de mesa de ayuda propio de la compañia.",
+        "category": "Profesional",
+        "technologies": [
+            {
+                "id": 1,
+                "name": "Oracle Apex",
+                "logo": "https://cdn.worldvectorlogo.com/logos/oracle-corporation-logo.svg"
+
+            },
+            {
+                "id": 2,
+                "name": "CSS3",
+                "logo": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+
+            },
+            {
+                "id": 3,
+                "name": "Javascript",
+                "logo": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+
+            }
+        ],
+        "links": [
+            {
+                "id": 1,
+                "name": "Sitio web",
+                "url": "https://mbo-ingenieria-de-software-sas.negocio.site"
+            }
+        ],
+        "shortImage": {
+            "id": 1,
+            "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Fimg.webp?alt=media&token=04ae6a98-7879-4d4c-ba76-bd0dcb237686",
+            "alt": "shortImage"
+        },
+        "images": [
+            {
+                "id": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Fimg.webp?alt=media&token=04ae6a98-7879-4d4c-ba76-bd0dcb237686",
+                "alt": "Image slide"
+            },
+            {
+                "id": 2,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Fimg2.webp?alt=media&token=c7b0b6c2-f94c-4e4b-bf1a-940a77d9b334",
+                "alt": "Image slide"
+            },
+            {
+                "id": 3,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Fimg3.webp?alt=media&token=e86e08b5-947b-4b26-b3f6-2a5b22fe3f1f",
+                "alt": "Image slide"
+            },
+            {
+                "id": 4,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Fimg5.webp?alt=media&token=66b57612-bb6e-4512-a851-a3b6ff2266cc",
+                "alt": "Image slide"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Icontect",
+        "subtitle": "MBO Ingenieria",
+        "shortdescription": "Software implementado para optimizar el proceso de generar los certificados para diferentes normas.",
+        "description": "En este proyecto participe llevando a cabo las solicitudes del cliente en cuanto a autamatizacion del proceso de generar certificados de diferentes normas en colombia utilizando herramientas como oracle apex, PL-SQL, SQL ORACLE, CSS3, Javascripta, realizando consultas a la base de datos, creando vistas dinamicas y demas requerimientos del cliente, como reportes descargables o graficos.",
+        "category": "Profesional",
+        "technologies": [
+            {
+                "id": 1,
+                "name": "Oracle Apex",
+                "logo": "https://cdn.worldvectorlogo.com/logos/oracle-corporation-logo.svg"
+
+            },
+            {
+                "id": 2,
+                "name": "CSS3",
+                "logo": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+
+            },
+            {
+                "id": 3,
+                "name": "Javascript",
+                "logo": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+
+            }
+        ],
+        "links": [
+            {
+                "id": 1,
+                "name": "Sitio web",
+                "url": "https://mbo-ingenieria-de-software-sas.negocio.site"
+            }
+        ],
+        "shortImage": {
+            "id": 1,
+            "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Ficont2.webp?alt=media&token=74821d8e-9c3b-4baf-b926-3d154d5c56a2",
+            "alt": "shortImage"
+        },
+        "images": [
+            {
+                "id": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Ficont2.webp?alt=media&token=74821d8e-9c3b-4baf-b926-3d154d5c56a2",
+                "alt": "Image slide"
+            },
+            {
+                "id": 2,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/mbo%2Ficont.webp?alt=media&token=7adbc592-2f33-4c29-bf17-6582e00235bb",
+                "alt": "Image slide"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Landing pages",
+        "subtitle": "Suwwweb",
+        "shortdescription": "Desarrollar y realizar mantinemiento a diferentes landing pages empresariales.",
+        "description": "Desarrollar y realizar mantinemiento a diferentes landing pages empresariales en base a diseños entregados por la compañia, utilizando herramientas como adobe xd, figma, zeplin, optimizadores de imagenes, Wordpress, joomla, Javascript, CSS3, HTML5, phpMailer, owlCarrousel, bootstrap, bulma, skeleton, integración de reCAPTCHA, instalación de certificados ssl y manejo del cpanel en general.",
+        "category": "Profesional",
+        "technologies": [
+            {
+                "id": 1,
+                "name": "Javascript",
+                "logo": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+
+            },
+            {
+                "id": 2,
+                "name": "CSS3",
+                "logo": "https://cdn.worldvectorlogo.com/logos/css-3.svg"
+
+            },
+            {
+                "id": 3,
+                "name": "HTML",
+                "logo": "https://cdn.worldvectorlogo.com/logos/html-1.svg"
+
+            },
+            {
+                "id": 4,
+                "name": "XD",
+                "logo": "https://cdn.worldvectorlogo.com/logos/adobe-xd-2.svg"
+
+            },
+            {
+                "id": 5,
+                "name": "Wordpress",
+                "logo": "https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg"
+
+            },
+            {
+                "id": 6,
+                "name": "Joomla",
+                "logo": "https://cdn.worldvectorlogo.com/logos/joomla.svg"
+
+            },
+            {
+                "id": 7,
+                "name": "PHPMailer",
+                "logo": "https://cdn.worldvectorlogo.com/logos/phpmailer-1.svg"
+
+            },
+            {
+                "id": 8,
+                "name": "Bootstrap",
+                "logo": "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
+
+            },
+            {
+                "id": 9,
+                "name": "Bulma",
+                "logo": "https://cdn.worldvectorlogo.com/logos/bulma.svg"
+
+            },
+            {
+                "id": 10,
+                "name": "reCAPTCHA",
+                "logo": "https://cdn.worldvectorlogo.com/logos/recaptcha.svg"
+
+            },
+            {
+                "id": 11,
+                "name": "SSL",
+                "logo": "https://cdn.worldvectorlogo.com/logos/namecheap.svg"
+
+            },
+            {
+                "id": 12,
+                "name": "Cpanel",
+                "logo": "https://cdn.worldvectorlogo.com/logos/cpanel.svg"
+
+            }
+        ],
+        "links": [
+            {
+                "id": 1,
+                "name": "Sitio web",
+                "url": "https://www.suwwweb.com/"
+            }
+        ],
+        "shortImage": {
+            "id": 1,
+            "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2FColegio%20Jose%20Acevedo%20y%20Gomez%20(2)-xd.webp?alt=media&token=d72f9615-208e-4be9-ae77-84366cd2bcbe",
+            "alt": "shortImage"
+        },
+        "images": [
+            {
+                "id": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2Fexpofer.webp?alt=media&token=c9600d39-9151-4169-879e-d5d5a0c5bc6c",
+                "alt": "Image slide"
+            },
+            {
+                "id": 2,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2FColegio%20Jose%20Acevedo%20y%20Gomez%20(2)-xd.webp?alt=media&token=d72f9615-208e-4be9-ae77-84366cd2bcbe",
+                "alt": "Image slide"
+            },
+            {
+                "id": 3,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2FColegio%20Jose%20Acevedo%20y%20Gomez%20(2)-xd%20(1).webp?alt=media&token=9019d667-d65e-4fd1-9798-846c345d1152",
+                "alt": "Image slide"
+            },
+            {
+                "id": 4,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2Flis.webp?alt=media&token=2bd4ae9d-0b5b-4ac8-9a6b-a29fc1dd226e",
+                "alt": "Image slide"
+            },
+            {
+                "id": 5,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2Fsic.webp?alt=media&token=5992255c-d8c8-4608-a85d-f8785641f053",
+                "alt": "Image slide"
+            },
+            {
+                "id": 6,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2Fexpofer2.webp?alt=media&token=3aa272c6-2296-4711-9594-2874b4d89348",
+                "alt": "Image slide"
+            },
+            {
+                "id": 7,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2Fsic4.webp?alt=media&token=3305fe3c-27ef-4bfb-99f5-9cd5363107b1",
+                "alt": "Image slide"
+            },
+            {
+                "id": 8,
+                "url": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2Fsic5.webp?alt=media&token=4baab2da-99d5-4a94-90c3-fc100e301138",
+                "alt": "Image slide"
+            }
+        ]
+    }
+  ],
+  "experience":[
+    {
+        "id": "1",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/softpymes%2Flogo.webp?alt=media&token=5b38571c-3b73-4d98-ad16-3fe0ef9a8692",
+        "company": "Softpymes",
+        "jobtitle": "Desarrollador de software",
+        "summary": "Utilizando la metodolia Kanban-Scrum y herramientas como javascript, CSS, HTML, SQL, AngualrJS, Angular 13, DevExpress, git entre otras, dar manetniemiento al software comercializado por la compañia, asi mismo implementar nuevas funcionaldades propias de las reglas de negocio.",
+        "companydescription": "Es una empresa dedicada a la producción, diseño y comercialización de sistemas de información especialmente hecho y pensado para pymes. Nuestra experiencia nos ha llevado a contar a la fecha con más de 3.500 clientes a nivel nacional; la tecnología utilizada nos permite garantizar el funcionamiento de las soluciones y nuestro personal experto en diversas áreas empresariales respaldan todos los procesos de instalación, parametrización, acompañamiento y servicios de posventa, para la puesta en marcha de su información a través de cualquiera de nuestros productos. Nuevo concepto de software para pequeña, mediana empresa y profesionales independientes. Compañia dedicada al Desarrollo de software a la medida para pequeñas y grandes industrias.",
+        "functions": "Como desarrollador de software en mi trabajo actual, me enfoco en brindar mantenimiento y corrección de errores en el software utilizando una metodología ágil Kanban-Scrum. Para esto, cuento con una amplia gama de herramientas y tecnologías como javascript, CSS, HTML, SQL, AngualrJS, Angular 13, DevExpress, control de versiones con git y un tablero Kanban en Jira. Además, tengo la oportunidad de contribuir en la implementación de nuevos productos que mejoran aún más la funcionalidad del software comercializado por la compañía. Me siento muy satisfecho de trabajar en un equipo dinámico y en un entorno en el que se valoran las soluciones innovadoras y el crecimiento profesional.",
+        "dates": "01/04/2022 / Actualmente"
+    },
+    {
+        "id": "2",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/portafolio-735ee.appspot.com/o/mbo%2Flogo.webp?alt=media&token=a7ad48ba-c6d3-4970-a5b2-e0c34238b6a1",
+        "company": "MBO Ingeniera de software",
+        "jobtitle": "Analista Funcional",
+        "summary": "Mediante la herramienta Oracle apex crear funcionalidades para diferente software empresarial, agregando reportes interactivos, descargas de documentos y en genral funcionaldiades propias del lado de negocio",
+        "companydescription": "Además de proveer servicios de ingeniería de software, MBO Ingeniería de Software es también un Oracle Partner. Esto significa que la empresa ha sido reconocida por Oracle como un socio confiable y capacitado en la implementación y el uso de sus soluciones de software. Al ser un Oracle Partner, MBO Ingeniería de Software tiene acceso a herramientas, recursos y capacitación especializada de Oracle, lo que le permite ofrecer soluciones de alta calidad a sus clientes que utilizan productos y tecnologías Oracle.",
+        "functions": "tube la oportunidad de participar en proyectos para dos grandes compañías en Colombia en mision de MBO Ingenieria, en las cuales he implementamos nuevas funcionalidades y modificamos las existentes utilizando herramientas de vanguardia como Oracle Apex con PL-SQL, javascript y CSS. Estas iniciativas han permitido automatizar procesos mediante consultas automatizadas, vistas, reportes y envíos de correos electrónicos, lo que ha mejorado significativamente los tiempos de respuesta de los departamentos. Fue para mi muy emocionante trabajar en proyectos de tal magnitud y contribuir a lograr resultados impactantes para las empresas.",
+        "dates": "15-11-2020 / 31-03/2022"
+    },
+    {
+        "id": "3",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/suwwweb%2Flogo.webp?alt=media&token=475b2545-7c8d-437c-bc0f-c856e4572bac",
+        "jobtitle": "Programador Web Junior",
+        "company": "Suwwweb",
+        "summary": "Creación y mantenimiento de sitios web optimizados, instalación y configuración de SSL, creación y gestión de correos corporativos, manejo del CPanel y direccionamiento de DNS.",
+        "companydescription": "Esta empresa se especializa en servicios de tecnología y desarrollo web. Ofrecen una amplia gama de soluciones, incluyendo desarrollo de sitios web, aplicaciones móviles, e-commerce, marketing digital y optimización de motores de búsqueda. La empresa cuenta con un equipo altamente capacitado de ingenieros de software y expertos en marketing digital que trabajan juntos para brindar soluciones innovadoras y efectivas a sus clientes. Suwwweb se enorgullece de brindar un servicio excepcional y de tener un enfoque en las necesidades individuales de cada cliente para garantizar la satisfacción total.",
+        "functions": "Como desarrollador web en mi anterior trabajo, me encargaba de crear páginas web siguiendo los diseños y requerimientos de la compañía. Me aseguraba de optimizar cada página para garantizar una experiencia de usuario óptima, incluyendo la legibilidad, el peso de imágenes y la calidad. Además, también brindaba mantenimiento a proyectos previamente desarrollados en tecnologías como HTML, CSS, javascript, Wordpress y Joomla. Esto incluía la implementación de nuevas funcionalidades, como sliders y banners, la modificación de datos de contacto, la corrección de formularios de contacto y la integración de servicios de Google como reCAPTCHA y Google Analytics. También trabajé en la creación de correos corporativos en CPanel o Zoho y en el direccionamiento de DNS para correos o dominios.",
+        "dates": "15-07-2020 / Ocasionalmente"
+    }
+],
+"skills": [
+  {
+      "id": 1,
+      "title": "Tridente Web",
+      "logo": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
+      "description": "Solidas habilidades en HTML5, CSS3 y Javascript es+6, maquetación responsiva, consumo de APIs, manejo de eventos entre otros."
+  },
+  {
+      "id": 2,
+      "title": "Git y Github",
+      "logo": "https://cdn.worldvectorlogo.com/logos/github-icon.svg",
+      "description": "Manejo Git y Github para el correcto versionamiento del proyecto."
+  },
+  {
+      "id": 3,
+      "title": "Angular",
+      "logo": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
+      "description": "He tenido la oportunidad de participar en proyectos que manejan AngularJS, Angular2 y Angular 13, lo cual me permitio conocer buena parte del funcionamiento de estos frameworks"
+  },
+  {
+      "id": 4,
+      "title": "React Js",
+      "logo": "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+      "description": "He realizado cursos en diversas plataformas que me permiten tener conocimientos de esta herramienta, como lo son las rutas, componentes funcionales, los hooks, y props entre otras caracteristicas que ofrece."
+  },
+  {
+      "id": 5,
+      "title": "SQL y SQL-Oracle",
+      "logo": "https://cdn.worldvectorlogo.com/logos/oracle-corporation-logo.svg",
+      "description": "Conocimiento tipos de datos relacionales, asi como consultas relacionadas con el CRUD"
+  },
+  {
+      "id": 6,
+      "title": "Typescript",
+      "logo": "https://cdn.worldvectorlogo.com/logos/typescript.svg",
+      "description": "Conocimiento de la filosofia y conceptos basicos."
+  },
+  {
+      "id": 7,
+      "title": "Metodologias Agiles",
+      "logo": "https://cdn.worldvectorlogo.com/logos/scrum-1.svg",
+      "description": "En mi experiencia laboral he participado en proyectos que implementan metodologias Agiles, tales como Kanban, ademas de esto he tomado pequeños cursos para enteder SCRUM y Programación extrema"
+  },
+  {
+      "id": 8,
+      "title": "Varios",
+      "logo": "https://img.freepik.com/vector-gratis/icono-programador-plano_1284-4642.jpg?w=740&t=st=1675465573~exp=1675466173~hmac=e1b926de214b25401995e756c723470fddefea0d2258fc22e2069f9ef88e8bf4",
+      "description": "Docker, Sass, Cpanel, instalacion de SSL, Wordpress"
+  }
+]
+}
