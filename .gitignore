@@ -6,6 +6,7 @@ logs
 .firebaserc
 firebase.json
 
+
 # Runtime data
 pids
 *.pid
