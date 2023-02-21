@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import './aboutPage.scss';
 
 import { Link } from 'react-router-dom';
 import { Container } from '@mui/material';
-import { skillsData, textsAbout } from '../../mocks/about.mocks';
+import { ref, onValue } from 'firebase/database';
+import { skillsData } from '../../mocks/about.mocks';
 import Skill from '../../components/pure/skill/Skill';
 import SocialMedia from '../../components/containers/socialMedia/SocialMedia';
+import db from '../../../firebase';
 
 const AboutPage = () => {
+  const [textsAbout, setTextsAbout] = useState([]);
+
+  useEffect(() => {
+    const starCountRef = ref(db, '/abouttexts');
+    onValue(starCountRef, (snapshot) => {
+        const data = snapshot.val();
+        setTextsAbout(data);
+      });
+  }, []);
+
     return (
       <Container className="about">
         <div className="about--image">
