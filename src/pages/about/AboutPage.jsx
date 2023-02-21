@@ -5,7 +5,6 @@ import './aboutPage.scss';
 import { Link } from 'react-router-dom';
 import { CircularProgress, Container, ThemeProvider } from '@mui/material';
 import { ref, onValue } from 'firebase/database';
-// import { skillsData } from '../../mocks/about.mocks';
 import Skill from '../../components/pure/skill/Skill';
 import SocialMedia from '../../components/containers/socialMedia/SocialMedia';
 import db from '../../../firebase';
