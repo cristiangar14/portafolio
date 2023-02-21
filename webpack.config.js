@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'); // Para el template de
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // Para reducir los CSS
 const { SourceMapDevToolPlugin } = require('webpack'); // Para conocer el Source Map de nuestro proyecto
 const ESLintPlugin = require('eslint-webpack-plugin'); // Reemplazo de eslint-loader
+const Dotenv = require('dotenv-webpack');
 // Configuraciones de puerto
 const port = process.env.PORT || 3000;
 
@@ -72,6 +73,7 @@ module.exports = {
         ],
     },
     plugins: [
+        new Dotenv(),
         new HtmlWebpackPlugin(
           {
             template: './public/index.html',
@@ -96,8 +98,7 @@ module.exports = {
             // Toggle autofix
             fix: false,
             cache: false,
-          
-          })
+          }),
       ],
       resolve: {
         extensions: ['.js', '.jsx', '.css', '.scss'],
