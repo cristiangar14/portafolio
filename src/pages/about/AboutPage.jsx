@@ -3,21 +3,38 @@ import React, { useEffect, useState } from 'react';
 import './aboutPage.scss';
 
 import { Link } from 'react-router-dom';
-import { Container } from '@mui/material';
+import { CircularProgress, Container, ThemeProvider } from '@mui/material';
 import { ref, onValue } from 'firebase/database';
-import { skillsData } from '../../mocks/about.mocks';
+// import { skillsData } from '../../mocks/about.mocks';
 import Skill from '../../components/pure/skill/Skill';
 import SocialMedia from '../../components/containers/socialMedia/SocialMedia';
 import db from '../../../firebase';
+import theme from '../../theme';
+
+const initialStateLoading = {
+  textAboutLoading: false,
+  skillsLoading: false,
+};
 
 const AboutPage = () => {
+  const [loading, setLoading] = useState(initialStateLoading);
   const [textsAbout, setTextsAbout] = useState([]);
+  const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    const starCountRef = ref(db, '/abouttexts');
-    onValue(starCountRef, (snapshot) => {
+    setLoading({ textAboutLoading: true, skillsLoading: true });
+    const startAboutText = ref(db, '/abouttexts');
+    onValue(startAboutText, (snapshot) => {
         const data = snapshot.val();
         setTextsAbout(data);
+        setLoading({ ...loading, textAboutLoading: false });
+      });
+
+    const startSkills = ref(db, '/skills');
+    onValue(startSkills, (snapshot) => {
+        const data = snapshot.val();
+        setSkills(data);
+        setLoading({ ...loading, skillsLoading: true });
       });
   }, []);
 
@@ -28,8 +45,16 @@ const AboutPage = () => {
         </div>
         <div className="about--text">
           <h1>Hola! Soy Cristian Garzón</h1>
-          <div className="">
-            {
+          {
+            loading.textAboutLoading
+            ? (
+              <ThemeProvider theme={theme}>
+                <CircularProgress />
+              </ThemeProvider>
+              )
+            : (
+              <div className="">
+                {
               textsAbout.map((el) => {
                 return (
                   <p key={el.id}>
@@ -38,7 +63,10 @@ const AboutPage = () => {
                 );
               })
             }
-          </div>
+              </div>
+            )
+          }
+
           <p>
             Si desea conocer más sobre mi experiencia y portafolio, por favor visite los menús de
             {' '}
@@ -51,13 +79,24 @@ const AboutPage = () => {
         </div>
         <div className="about--skills">
           <h3>Skills</h3>
-          <div className="about--skills_list">
-            {
-              skillsData.map((el) => {
+          {
+            loading.skillsLoading
+            ? (
+              <ThemeProvider theme={theme}>
+                <CircularProgress />
+              </ThemeProvider>
+              )
+            : (
+              <div className="about--skills_list">
+                {
+              skills.map((el) => {
                 return <Skill key={`skill${el.id}`} data={el} />;
               })
             }
-          </div>
+              </div>
+            )
+          }
+
         </div>
         <div className="about--social">
           <h3>Redes Sociales</h3>
