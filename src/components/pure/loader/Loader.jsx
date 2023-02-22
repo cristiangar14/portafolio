@@ -8,7 +8,10 @@ const Loader = () => {
   return (
     <div className="loader--container">
       <ThemeProvider theme={theme}>
-        <CircularProgress />
+        <div className="loader--main">
+          <CircularProgress />
+          <p>Cargando...</p>
+        </div>
       </ThemeProvider>
     </div>
   );
