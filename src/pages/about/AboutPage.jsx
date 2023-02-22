@@ -45,7 +45,7 @@ const AboutPage = () => {
         <div className="about--text">
           <h1>Hola! Soy Cristian Garzón</h1>
           {
-            loading.textAboutLoading
+            loading.textAboutLoading && !textsAbout.length
             ? (
               <Loader />
               )
