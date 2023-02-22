@@ -1,28 +1,46 @@
 import { Container } from '@mui/material';
-import React, { useMemo } from 'react';
+import { onValue, ref } from 'firebase/database';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getExperienceDetail } from '../../services/data';
+import db from '../../../firebase';
+import Loader from '../../components/pure/loader/Loader';
 
 import './experienceDetail.scss';
 
+const initialStateLoading = {
+  experienceLoading: true,
+};
+
 const ExperienceDetail = () => {
     const params = useParams();
+    const [loading, setLoading] = useState(initialStateLoading);
+    const [data, setData] = useState({});
 
-    const data = useMemo(() => (
-        getExperienceDetail(params.id)
-    ), [params.id]);
+    useEffect(() => {
+      setLoading({ experienceLoading: true });
+      const startAboutText = ref(db, `/experience/${params.id}`);
+      onValue(startAboutText, (snapshot) => {
+        const getData = snapshot.val();
+        setData(getData);
+        setLoading({ experienceLoading: false });
+      });
+    }, []);
 
-    return (
+    return loading.experienceLoading
+    ? (
+      <Loader />
+    )
+    : (
       <Container className="experienceDetails">
         <div className="experienceDetails__company">
-          <h2>{data.company}</h2>
+          <h1>{data.company}</h1>
           <div className="experienceDetails__image">
             <img src={data.logo} alt={data.company} />
           </div>
           <p>{data.companyDescription}</p>
         </div>
         <div className="experienceDetails__functions">
-          <h3>Funciones</h3>
+          <h2>Funciones</h2>
           <p>{data.functions}</p>
         </div>
       </Container>
