@@ -11,8 +11,8 @@ import db from '../../../firebase';
 import Loader from '../../components/pure/loader/Loader';
 
 const initialStateLoading = {
-  textAboutLoading: false,
-  skillsLoading: false,
+  textAboutLoading: true,
+  skillsLoading: true,
 };
 
 const AboutPage = () => {

@@ -7,7 +7,7 @@ import './experiencePage.scss';
 import Loader from '../../components/pure/loader/Loader';
 
 const initialStateLoading = {
-  experiencesLoading: false,
+  experiencesLoading: true,
 };
 
 const ExperiencePage = () => {
