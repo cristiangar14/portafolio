@@ -19,7 +19,7 @@ const CardItem = ({ data }) => {
             <div className="">
               <h4>{data.title}</h4>
               <h5>{data.category}</h5>
-              <p>{data.shortDescription}</p>
+              <p>{data.shortdescription}</p>
             </div>
             <div className="">
               <p className="cardItem--details">Ver mas...</p>

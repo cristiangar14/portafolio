@@ -3,12 +3,12 @@ import React, { useEffect, useState } from 'react';
 import './aboutPage.scss';
 
 import { Link } from 'react-router-dom';
-import { CircularProgress, Container, ThemeProvider } from '@mui/material';
+import { Container } from '@mui/material';
 import { ref, onValue } from 'firebase/database';
 import Skill from '../../components/pure/skill/Skill';
 import SocialMedia from '../../components/containers/socialMedia/SocialMedia';
 import db from '../../../firebase';
-import theme from '../../theme';
+import Loader from '../../components/pure/loader/Loader';
 
 const initialStateLoading = {
   textAboutLoading: false,
@@ -33,7 +33,7 @@ const AboutPage = () => {
     onValue(startSkills, (snapshot) => {
         const data = snapshot.val();
         setSkills(data);
-        setLoading({ ...loading, skillsLoading: true });
+        setLoading({ ...loading, skillsLoading: false });
       });
   }, []);
 
@@ -47,9 +47,7 @@ const AboutPage = () => {
           {
             loading.textAboutLoading
             ? (
-              <ThemeProvider theme={theme}>
-                <CircularProgress />
-              </ThemeProvider>
+              <Loader />
               )
             : (
               <div className="">
@@ -81,9 +79,7 @@ const AboutPage = () => {
           {
             loading.skillsLoading
             ? (
-              <ThemeProvider theme={theme}>
-                <CircularProgress />
-              </ThemeProvider>
+              <Loader />
               )
             : (
               <div className="about--skills_list">

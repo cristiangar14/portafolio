@@ -1,14 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { ref, onValue } from 'firebase/database';
-import {
-  CircularProgress,
-  Container,
-  ThemeProvider,
-} from '@mui/material';
+import { Container } from '@mui/material';
 import BigCard from '../../components/pure/bigCard/BigCard';
 import db from '../../../firebase';
-import theme from '../../theme';
 import './experiencePage.scss';
+import Loader from '../../components/pure/loader/Loader';
 
 const initialStateLoading = {
   experiencesLoading: false,
@@ -28,27 +24,20 @@ const ExperiencePage = () => {
       });
     }, []);
 
-    return (
+    return loading.experiencesLoading
+    ? (
+      <Loader />
+    )
+    : (
       <Container className="experience">
-        <h2>Experiencia IT</h2>
-        {
-          loading.experiencesLoading
-          ? (
-            <ThemeProvider theme={theme}>
-              <CircularProgress />
-            </ThemeProvider>
-          )
-          : (
-            <div className="experience--conatainer">
-              {
+        <h1>Experiencia IT</h1>
+        <div className="experience--conatainer">
+          {
             dataExperiences.map((el) => (
               <BigCard key={`experience-${el.id}-${el.company}`} data={el} />
             ))
           }
-            </div>
-          )
-
-        }
+        </div>
       </Container>
     );
 };
