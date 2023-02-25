@@ -15,11 +15,11 @@ const ContactFormContainer = () => {
       name: values.name,
       message: values.message,
       subject: values.subject,
-    }).then((data) => {
+    }).then(() => {
       setSuccess(true);
       setLoading(false);
     })
-    .catch((error) => {
+    .catch(() => {
       setSuccess(false);
       setLoading(false);
     });
