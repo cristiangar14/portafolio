@@ -5,18 +5,9 @@ import './background.scss';
 const Background = () => {
     return (
       <div className="area">
-        <ul className="circles">
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-          <li />
-        </ul>
+        <div className="bg" />
+        <div className="bg bg2" />
+        <div className="bg bg3" />
       </div>
     );
 };
