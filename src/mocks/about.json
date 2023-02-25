@@ -77,6 +77,111 @@
       "title": "roadmap",
       "url": "https://roadmap.sh/",
       "description": "Rutas de aprendizaje de desarrollo"
+    },
+    {
+      "id": 8,
+      "category": "Desarrollo",
+      "title": "unminify",
+      "url": "https://unminify.com/",
+      "description": "Desminificar codigo"
+    },
+    {
+      "id": 9,
+      "category": "Desarrollo",
+      "title": "Curso javascript",
+      "url": "https://aprendejavascript.org/?fbclid=IwAR3HdjZPJKNozLff1GEEX3pPSKUDNaO5iAIctB2_snjd9qxo0Ldr4WiqBcs",
+      "description": "Curso gratuito de Javascript profesor John Mircha"
+    },
+    {
+      "id": 10,
+      "category": "Desarrollo",
+      "title": "Whatsmydns",
+      "url": "https://www.whatsmydns.net/",
+      "description": "Propagación de DNS."
+    },
+    {
+      "id": 11,
+      "category": "Diseño",
+      "title": "Shortpixel",
+      "url": "https://shortpixel.com/online-image-compression",
+      "description": "Comprimir imagenes"
+    },
+    {
+      "id": 12,
+      "category": "Desarrollo",
+      "title": "CursosDev",
+      "url": "https://www.cursosdev.com/",
+      "description": "Cupones de Udemy"
+    },
+    {
+      "id": 13,
+      "category": "Desarrollo",
+      "title": "svg-loaders",
+      "url": "https://samherbert.net/svg-loaders/",
+      "description": "Loaders en svg"
+    },
+    {
+      "id": 14,
+      "category": "Diseño",
+      "title": "maketext",
+      "url": "https://maketext.io/",
+      "description": "Generador de texto con diseño"
+    },
+    {
+      "id": 15,
+      "category": "Diseño",
+      "title": "freejpg",
+      "url": "https://www.freejpg.com.ar/banco-de-imagenes-gratis",
+      "description": "Imagenes gratis"
+    },
+    {
+      "id": 16,
+      "category": "Desarrollo",
+      "title": "warriorjs",
+      "url": "https://warriorjs.com/",
+      "description": "Juego para practicar Javascript"
+    },
+    {
+      "id": 17,
+      "category": "Desarrollo",
+      "title": "open-bootcamp",
+      "url": "https://campus.open-bootcamp.com/login",
+      "description": "Cursos gratuitos de desarrollo."
+    },
+    {
+      "id": 18,
+      "category": "Desarrollo",
+      "title": "neumorphism",
+      "url": "https://neumorphism.io/#e0e0e0",
+      "description": "Generador de neuformismo."
+    },
+    {
+      "id": 19,
+      "category": "Desarrollo",
+      "title": "eact-svgr",
+      "url": "https://react-svgr.com/playground/",
+      "description": "Convertir svgs a componentes de React"
+    },
+    {
+      "id": 20,
+      "category": "Desarrollo",
+      "title": "Libros",
+      "url": "https://drive.google.com/drive/u/0/folders/1hdSylyYGvshO7SLYz7y5ZbYEo67WKFB3?fbclid=IwAR067584puwUKVeTeGEWP2Y2wnC6Tv-fEVHRiL2Rs86puOENxfePd8527OQ",
+      "description": "Drive con libros sobre programación."
+    },
+    {
+      "id": 21,
+      "category": "Desarrollo",
+      "title": "Guia Git",
+      "url": "https://training.github.com/downloads/es_ES/github-git-cheat-sheet/",
+      "description": "Guia de comandos de Git."
+    },
+    {
+      "id": 22,
+      "category": "Desarrollo",
+      "title": "tablericons",
+      "url": "https://tablericons.com/",
+      "description": "Iconos gratis."
     }
   ],
   "portfolio": [
@@ -431,8 +536,8 @@
         "functions": "Como desarrollador web en mi anterior trabajo, me encargaba de crear páginas web siguiendo los diseños y requerimientos de la compañía. Me aseguraba de optimizar cada página para garantizar una experiencia de usuario óptima, incluyendo la legibilidad, el peso de imágenes y la calidad. Además, también brindaba mantenimiento a proyectos previamente desarrollados en tecnologías como HTML, CSS, javascript, Wordpress y Joomla. Esto incluía la implementación de nuevas funcionalidades, como sliders y banners, la modificación de datos de contacto, la corrección de formularios de contacto y la integración de servicios de Google como reCAPTCHA y Google Analytics. También trabajé en la creación de correos corporativos en CPanel o Zoho y en el direccionamiento de DNS para correos o dominios.",
         "dates": "15-07-2020 / Ocasionalmente"
     }
-],
-"skills": [
+  ],
+  "skills": [
   {
       "id": 0,
       "title": "Javascript",
@@ -440,17 +545,17 @@
       "description": "Solidas Javascript es+6, consumo de APIs, manejo de eventos entre otros, funciones asincronas, promesas, condicionales, bucles, funciones recursivas."
   },
   {
-    "id": 1,
-    "title": "HTML5",
-    "logo": "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-    "description": "Maquetación semantica, uso de buenas practicas."
-    },
-    {
-        "id": 2,
-        "title": "CSS3",
-        "logo": "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-        "description": "Mobile first, grid, flexbox, uso de variables, animaciones, unidades relativas, preprocesadores."
-    },
+      "id": 1,
+      "title": "HTML5",
+      "logo": "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+      "description": "Maquetación semantica, uso de buenas practicas."
+      },
+      {
+          "id": 2,
+          "title": "CSS3",
+          "logo": "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+          "description": "Mobile first, grid, flexbox, uso de variables, animaciones, unidades relativas, preprocesadores."
+      },
   {
       "id": 3,
       "title": "Git y Github",
@@ -494,22 +599,22 @@
       "description": "Implementación de la libreria."
   },
   {
-    "id": 10,
-    "title": "Material",
-    "logo": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
-    "description": "Implementación de la libreria."
-    },
-    {
-        "id": 11,
-        "title": "Cpanel",
-        "logo": "https://cdn.worldvectorlogo.com/logos/cpanel.svg",
-        "description": "Manejo de archivos, backups, mantenimiento en general."
-    },
-    {
-        "id": 12,
-        "title": "Varios",
-        "logo": "https://img.freepik.com/vector-gratis/icono-programador-plano_1284-4642.jpg?w=740&t=st=1675465573~exp=1675466173~hmac=e1b926de214b25401995e756c723470fddefea0d2258fc22e2069f9ef88e8bf4",
-        "description": "instalacion de SSL, Wordpress, Oracle Apex"
-    }
-]
+      "id": 10,
+      "title": "Material",
+      "logo": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
+      "description": "Implementación de la libreria."
+      },
+      {
+          "id": 11,
+          "title": "Cpanel",
+          "logo": "https://cdn.worldvectorlogo.com/logos/cpanel.svg",
+          "description": "Manejo de archivos, backups, mantenimiento en general."
+      },
+      {
+          "id": 12,
+          "title": "Varios",
+          "logo": "https://img.freepik.com/vector-gratis/icono-programador-plano_1284-4642.jpg?w=740&t=st=1675465573~exp=1675466173~hmac=e1b926de214b25401995e756c723470fddefea0d2258fc22e2069f9ef88e8bf4",
+          "description": "instalacion de SSL, Wordpress, Oracle Apex"
+      }
+  ]
 }
