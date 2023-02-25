@@ -1,31 +1,31 @@
-import { ref, set } from 'firebase/database';
+import { push, ref } from 'firebase/database';
 import React, { useState } from 'react';
 import db from '../../../../firebase';
 import ContactForm from '../../pure/contactForm/ContactForm';
 
 const ContactFormContainer = () => {
   const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
   const sendEmail = (values) => {
-    setLoading(false);
-    set(ref(db, 'emails/'), {
+    setLoading(true);
+    setSuccess(true);
+
+    push(ref(db, 'emails/'), {
       email: values.email,
       name: values.name,
       message: values.message,
       subject: values.subject,
-    })
-    .then((data) => {
-      // Data saved successfully!
-      // eslint-disable-next-line no-console
-      console.log(data);
+    }).then((data) => {
+      setSuccess(true);
+      setLoading(false);
     })
     .catch((error) => {
-      // Data saved successfully!
-      // eslint-disable-next-line no-console
-      console.log(error);
+      setSuccess(false);
+      setLoading(false);
     });
   };
 
-  return <ContactForm loading={loading} sendEmail={sendEmail} />;
+  return <ContactForm success={success} loading={loading} sendEmail={sendEmail} />;
 };
 
 export default ContactFormContainer;

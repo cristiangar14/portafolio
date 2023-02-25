@@ -8,6 +8,7 @@ import * as Yup from 'yup';
 import { Button, TextField } from '@mui/material';
 
 import './contactForm.scss';
+import Loader from '../loader/Loader';
 
 const contactSchema = Yup.object({
   name: Yup.string()
@@ -21,7 +22,7 @@ const contactSchema = Yup.object({
     .required('El mensaje es requerido'),
 });
 
-const ContactForm = ({ loading, sendEmail }) => {
+const ContactForm = ({ success, loading, sendEmail }) => {
   const handleSubmit = (values, { setSubmitting, resetForm }) => {
     sendEmail(values); // hacer algo con los valores
     setSubmitting(false); // deshabilitar el botón de envío
@@ -127,7 +128,12 @@ const ContactForm = ({ loading, sendEmail }) => {
             >
               Enviar
             </Button>
-            {loading ? <p>LOADING...</p> : null}
+            <div className="contact--form__resp">
+              {loading ? <Loader /> : null}
+              {
+                success && !loading ? <p className="contact--form__success">Email enviado con exito, en breve me ponde en contácto.</p> : null
+              }
+            </div>
           </Form>
         )}
       </Formik>

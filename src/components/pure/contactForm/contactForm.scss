@@ -5,3 +5,12 @@
   font-size: small;
   margin-bottom: 0.5rem;
 }
+
+.contact--form__resp {
+  padding: 0.4rem;
+  
+  .contact--form__success {
+    text-align: center;
+    color: $secundary-background-color;
+  }
+}
