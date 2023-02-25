@@ -21,6 +21,8 @@ const PortfolioPage = () => {
       onValue(startAboutText, (snapshot) => {
           setData(snapshot.val());
           setLoading({ dataLoading: false });
+        }, {
+          onlyOnce: true,
         });
     }, []);
 

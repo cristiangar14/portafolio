@@ -15,6 +15,8 @@ const contactSchema = Yup.object({
   email: Yup.string()
     .email('Email inválido')
     .required('El email es requerido'),
+  subject: Yup.string()
+    .required('El asunto es requerido'),
   message: Yup.string()
     .required('El mensaje es requerido'),
 });
@@ -29,6 +31,7 @@ const ContactForm = ({ loading, sendEmail }) => {
   const initialValues = {
     name: '',
     email: '',
+    subject: '',
     message: '',
   };
 
@@ -75,6 +78,24 @@ const ContactForm = ({ loading, sendEmail }) => {
               </Field>
               <div className="form-error">
                 <ErrorMessage name="email" />
+              </div>
+            </div>
+            <div>
+              <Field name="subject">
+                {({ field }) => (
+                  <TextField
+                    // eslint-disable-next-line react/jsx-props-no-spreading
+                    {...field}
+                    label="Asunto"
+                    variant="outlined"
+                    margin="normal"
+                    fullWidth
+                    className="form--input"
+                  />
+                )}
+              </Field>
+              <div className="form-error">
+                <ErrorMessage name="subject" className="form-error" />
               </div>
             </div>
             <div>
