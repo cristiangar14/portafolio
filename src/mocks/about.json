@@ -31,14 +31,14 @@
     },
     {
       "id": 1,
-      "category": "desarrollo",
+      "category": "Desarrollo",
       "title": "AngularJS",
       "url": "https://docs.angularjs.org/api/ng/directive/ngModel",
       "description": "documentación oficial de AngularJS"
     },
     {
       "id": 2,
-      "category": "desarrollo",
+      "category": "Desarrollo",
       "title": "AngularJS",
       "url": "https://docs.angularjs.org/api/ng/directive/ngModel",
       "description": "documentación oficial de AngularJS"
@@ -435,51 +435,75 @@
 "skills": [
   {
       "id": 0,
-      "title": "Tridente Web",
+      "title": "Javascript",
       "logo": "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg",
-      "description": "Solidas habilidades en HTML5, CSS3 y Javascript es+6, maquetación responsiva, consumo de APIs, manejo de eventos entre otros."
+      "description": "Solidas Javascript es+6, consumo de APIs, manejo de eventos entre otros, funciones asincronas, promesas, condicionales, bucles, funciones recursivas."
   },
   {
-      "id": 1,
+    "id": 1,
+    "title": "HTML5",
+    "logo": "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+    "description": "Maquetación semantica, uso de buenas practicas."
+    },
+    {
+        "id": 2,
+        "title": "CSS3",
+        "logo": "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+        "description": "Mobile first, grid, flexbox, uso de variables, animaciones, unidades relativas, preprocesadores."
+    },
+  {
+      "id": 3,
       "title": "Git y Github",
       "logo": "https://cdn.worldvectorlogo.com/logos/github-icon.svg",
       "description": "Manejo Git y Github para el correcto versionamiento del proyecto."
   },
   {
-      "id": 2,
+      "id": 4,
       "title": "Angular",
       "logo": "https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg",
-      "description": "He tenido la oportunidad de participar en proyectos que manejan AngularJS, Angular2 y Angular 13, lo cual me permitio conocer buena parte del funcionamiento de estos frameworks"
-  },
-  {
-      "id": 3,
-      "title": "React Js",
-      "logo": "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-      "description": "He realizado cursos en diversas plataformas que me permiten tener conocimientos de esta herramienta, como lo son las rutas, componentes funcionales, los hooks, y props entre otras caracteristicas que ofrece."
-  },
-  {
-      "id": 4,
-      "title": "SQL y SQL-Oracle",
-      "logo": "https://cdn.worldvectorlogo.com/logos/oracle-corporation-logo.svg",
-      "description": "Conocimiento tipos de datos relacionales, asi como consultas relacionadas con el CRUD"
+      "description": "He tenido la oportunidad de participar en proyectos que manejan AngularJS, Angular2 y Angular 15"
   },
   {
       "id": 5,
+      "title": "React Js",
+      "logo": "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+      "description": "Componenetes funcionales, uso de hooks, react-router-dom, webpack, create-react-app, manejo de dependencias de node."
+  },
+  {
+      "id": 6,
+      "title": "SQL y SQL-Oracle",
+      "logo": "https://cdn.worldvectorlogo.com/logos/oracle-corporation-logo.svg",
+      "description": "Conocimiento en tipos de datos relacionales, asi como consultas relacionadas con el CRUD"
+  },
+  {
+      "id": 7,
       "title": "Typescript",
       "logo": "https://cdn.worldvectorlogo.com/logos/typescript.svg",
       "description": "Conocimiento de la filosofia y conceptos basicos."
   },
   {
-      "id": 6,
+      "id": 8,
       "title": "Metodologias Agiles",
       "logo": "https://cdn.worldvectorlogo.com/logos/scrum-1.svg",
-      "description": "En mi experiencia laboral he participado en proyectos que implementan metodologias Agiles, tales como Kanban, ademas de esto he tomado pequeños cursos para enteder SCRUM y Programación extrema"
+      "description": "Implementan metodologias Agiles, tales como Kanban o SCRUM"
   },
   {
-      "id": 7,
-      "title": "Varios",
-      "logo": "https://img.freepik.com/vector-gratis/icono-programador-plano_1284-4642.jpg?w=740&t=st=1675465573~exp=1675466173~hmac=e1b926de214b25401995e756c723470fddefea0d2258fc22e2069f9ef88e8bf4",
-      "description": "Docker, Sass, Cpanel, instalacion de SSL, Wordpress"
-  }
+      "id": 9,
+      "title": "Bootstrap",
+      "logo": "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg",
+      "description": "Implementación de la libreria."
+  },
+  {
+    "id": 10,
+    "title": "Material",
+    "logo": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
+    "description": "Implementación de la libreria."
+},
+  {
+    "id": 11,
+    "title": "Varios",
+    "logo": "https://img.freepik.com/vector-gratis/icono-programador-plano_1284-4642.jpg?w=740&t=st=1675465573~exp=1675466173~hmac=e1b926de214b25401995e756c723470fddefea0d2258fc22e2069f9ef88e8bf4",
+    "description": "Sass, Cpanel, instalacion de SSL, Wordpress"
+}
 ]
 }
