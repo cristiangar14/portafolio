@@ -498,12 +498,18 @@
     "title": "Material",
     "logo": "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
     "description": "Implementación de la libreria."
-},
-  {
-    "id": 11,
-    "title": "Varios",
-    "logo": "https://img.freepik.com/vector-gratis/icono-programador-plano_1284-4642.jpg?w=740&t=st=1675465573~exp=1675466173~hmac=e1b926de214b25401995e756c723470fddefea0d2258fc22e2069f9ef88e8bf4",
-    "description": "Sass, Cpanel, instalacion de SSL, Wordpress"
-}
+    },
+    {
+        "id": 11,
+        "title": "Cpanel",
+        "logo": "https://cdn.worldvectorlogo.com/logos/cpanel.svg",
+        "description": "Manejo de archivos, backups, mantenimiento en general."
+    },
+    {
+        "id": 12,
+        "title": "Varios",
+        "logo": "https://img.freepik.com/vector-gratis/icono-programador-plano_1284-4642.jpg?w=740&t=st=1675465573~exp=1675466173~hmac=e1b926de214b25401995e756c723470fddefea0d2258fc22e2069f9ef88e8bf4",
+        "description": "instalacion de SSL, Wordpress, Oracle Apex"
+    }
 ]
 }
