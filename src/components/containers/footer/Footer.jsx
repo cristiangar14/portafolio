@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footer--container">
           <div className="footer--left">
-            <div className="">
+            <div className="footer--btn__cv">
               <a href="/ubicacionarchivo" download="archivo.pdf" target="_blank" rel="noreferrer">
                 <h2>Descarga mi CV</h2>
               </a>
