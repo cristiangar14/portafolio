@@ -15,4 +15,19 @@
     justify-content: space-around;
     align-items: flex-start;
   }
+
+  .resources--search__input {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-radius: 0.3rem;
+  }
+  .resources--search__notFount{
+    text-align: center;
+    margin-top: 1rem;
+    color: $primary-font-color; 
+  }
 }
