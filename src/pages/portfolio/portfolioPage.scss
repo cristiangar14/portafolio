@@ -3,6 +3,8 @@
 .portfolio {
     padding-top: 2rem;
     color: $primary-font-color;
+    display: flex;
+    align-items: center;
 
     h2, h3 {
         color: $primary-contrast-color;

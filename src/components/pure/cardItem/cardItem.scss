@@ -14,7 +14,6 @@
         background-color: $secundary-background-color;
         border-radius: 0.375rem;
         transition: all 0.3s ease-in;
-            
         .cardItem--image{
             max-height: 40%;
         }
@@ -46,4 +45,7 @@
 .cardItem--container:hover{
     opacity: 0.8;
     transform: scale(1.1);
+    .cardItem--details{
+        color: $primary-contrast-color;
+    }
 }
