@@ -134,7 +134,7 @@ const ContactForm = ({
             <div className="contact--form__resp">
               {loading ? <Loader /> : null}
               {
-                success && !loading ? <p className="contact--form__success">Email enviado con exito, en breve me ponde en contácto.</p> : null
+                success && !loading ? <p className="contact--form__success">Email enviado con exito, en breve me pondre en contácto.</p> : null
               }
               {
                 error && !loading ? <p className="contact--form__error">Ha ocurrido un error, por favor intenta mas tarde o enviame un email.</p> : null
