@@ -182,6 +182,27 @@
       "title": "tablericons",
       "url": "https://tablericons.com/",
       "description": "Iconos gratis."
+    },
+    {
+      "id": 23,
+      "category": "General",
+      "title": "overleaf",
+      "url": "https://www.overleaf.com/project/63f39dcdaaa84c2083a1e0e5",
+      "description": "Plantillas para CVs"
+    },
+    {
+      "id": 24,
+      "category": "Desarrollo",
+      "title": "rahuldkjain",
+      "url": "https://rahuldkjain.github.io/gh-profile-readme-generator/",
+      "description": "Editar el perfil de Github"
+    },
+    {
+      "id": 25,
+      "category": "Desarrollo",
+      "title": "pagespeed",
+      "url": "https://pagespeed.web.dev/",
+      "description": "Medir el rendimiento de la web"
     }
   ],
   "portfolio": [
