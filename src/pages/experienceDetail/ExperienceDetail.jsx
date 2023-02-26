@@ -37,7 +37,7 @@ const ExperienceDetail = () => {
           <div className="experienceDetails__image">
             <img src={data.logo} alt={data.company} />
           </div>
-          <p>{data.companyDescription}</p>
+          <p>{data.companydescription}</p>
         </div>
         <div className="experienceDetails__functions">
           <h2>Funciones</h2>
