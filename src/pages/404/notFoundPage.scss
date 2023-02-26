@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+
+.notFound{
+    height: 100%;
+    padding: 2rem 0;
+    color: $primary-font-color;
+    text-align: center;
+    h2{
+        color: $primary-contrast-color;
+    }
+}
