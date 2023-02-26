@@ -6,7 +6,8 @@
     padding-bottom: 1rem;
     border-bottom: solid 1px #c4c4c4;
     .bigCard--image{
-        margin-bottom: 1rem;
+        margin: 0 auto 1rem;
+        max-width: 200px;
         img{
             width: 100%;
             height: auto;
@@ -38,8 +39,9 @@
     @media (min-width: $breakpoint-mobile ) {
         display: grid; 
         grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: auto min-content; 
+        grid-template-rows: min-content min-content; 
         gap: 5px 5px; 
+        place-items: center;
 
         .bigCard--content { grid-area: 1 / 1 / 3 / 3; }
         .bigCard--image { 

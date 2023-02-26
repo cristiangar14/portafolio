@@ -7,16 +7,16 @@ const BigCard = ({ data }) => {
     return (
       <div className="bigCard">
         <div className="bigCard--image">
-          <img src={data.logo} alt="compa" />
+          <img src={data.logo} alt={data.company} />
         </div>
         <div className="bigCard--content">
-          <h3>{data.jobTitle}</h3>
+          <h3>{data.jobtitle}</h3>
           <h4>{data.company}</h4>
-          <p>{data.summary}</p>
           <p>{data.dates}</p>
-        </div>
-        <div className="bigCard--link">
-          <Link to={`/experience/${data.id}`}>Ver mas...</Link>
+          <p>{data.summary}</p>
+          <div className="bigCard--link">
+            <Link to={`/experience/${data.id}`}>Ver mas...</Link>
+          </div>
         </div>
       </div>
     );
