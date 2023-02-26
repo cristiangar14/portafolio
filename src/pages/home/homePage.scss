@@ -5,19 +5,22 @@ main .home{
     flex-direction: column;
     justify-content: center;
     height: 100%;
-
+    
     .home--container__resumen {
         width: 100%;
-        margin: 0 auto 2rem;
+        margin: 2rem auto 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         gap: 1rem;
         p {
+            min-width: 250px;
             max-width: 500px;
             color: $primary-font-color;
         }
         .home--image {
+            width: 80%;
             max-width: 300px;
             height: auto;
             border-radius: 50%;
