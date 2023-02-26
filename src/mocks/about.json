@@ -31,10 +31,10 @@
     },
     {
       "id": 1,
-      "category": "Desarrollo",
-      "title": "AngularJS",
-      "url": "https://docs.angularjs.org/api/ng/directive/ngModel",
-      "description": "documentación oficial de AngularJS"
+      "category": "Diseño",
+      "title": "photopea",
+      "url": "https://www.photopea.com/",
+      "description": "Editor de imagenes"
     },
     {
       "id": 2,
