@@ -3,15 +3,15 @@ main .about{
     padding-top: 2rem;
     color: $primary-font-color;
 
-    .about--image{
-        display: none;
-    }
-
     .about--text{
 
         h1 {
             margin-bottom: 1rem;
             color: $primary-contrast-color;
+        }
+
+        p {
+            margin-bottom: 1rem;
         }
 
         a {
@@ -31,23 +31,13 @@ main .about{
     @media (min-width: $breakpoint-mobile ) {
         display: grid; 
         grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr; 
+        grid-template-rows: min-content min-content min-content; 
         gap: 10px 10px; 
         grid-template-areas: 
-          "aboutImage aboutText aboutText"
-          "aboutImage aboutText aboutText"
+          "aboutText aboutText aboutText"
+          "aboutText aboutText aboutText"
           "aboutEducation aboutEducation aboutSocial";
 
-        .about--image { 
-            grid-area: aboutImage;
-            display: flex;
-            align-items: center;
-
-            img {
-                width: 100%;
-
-            }
-        }
         .about--text { grid-area: aboutText; }
         .about--skills { 
             grid-area: aboutEducation;
@@ -56,7 +46,7 @@ main .about{
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
-                max-height: 250px;
+                max-height: 300px;
             }
         }
         .about--social { grid-area: aboutSocial; }

@@ -39,9 +39,6 @@ const AboutPage = () => {
 
     return (
       <Container className="about">
-        <div className="about--image">
-          <img src="https://t4.ftcdn.net/jpg/03/32/23/29/240_F_332232901_5QMxfW9GadHG7Cg8dP3j2bCmRQxhfgob.jpg" alt="imagen prueba" />
-        </div>
         <div className="about--text">
           <h1>Hola! Soy Cristian Garzón</h1>
           {
@@ -60,19 +57,19 @@ const AboutPage = () => {
                 );
               })
             }
+
+                <p>
+                  Si desea conocer más sobre mi experiencia y portafolio, por favor visite los menús de
+                  {' '}
+                  <Link to="/experience">Experiencia</Link>
+                  {' '}
+                  o
+                  {' '}
+                  <Link to="/portfolio">Portafolio.</Link>
+                </p>
               </div>
             )
           }
-
-          <p>
-            Si desea conocer más sobre mi experiencia y portafolio, por favor visite los menús de
-            {' '}
-            <Link to="/experience">Experiencia</Link>
-            {' '}
-            o
-            {' '}
-            <Link to="/portfolio">Portafolio.</Link>
-          </p>
         </div>
         <div className="about--skills">
           <h3>Skills</h3>
