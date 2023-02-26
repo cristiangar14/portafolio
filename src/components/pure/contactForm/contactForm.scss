@@ -1,7 +1,7 @@
 @import '../../../styles/variables.scss';
 
 .form-error {
-  color: red;
+  color: coral;
   font-size: small;
   margin-bottom: 0.5rem;
 }
@@ -9,8 +9,15 @@
 .contact--form__resp {
   padding: 0.4rem;
   
-  .contact--form__success {
+  .contact--form__success, .contact--form__error {
     text-align: center;
+  }
+  .contact--form__success {
     color: $secundary-background-color;
   }
+
+  .contact--form__error {
+    color: coral;
+  }
+
 }

@@ -1,6 +1,4 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
-
 import {
  Formik, Field, Form, ErrorMessage,
 } from 'formik';
@@ -22,7 +20,12 @@ const contactSchema = Yup.object({
     .required('El mensaje es requerido'),
 });
 
-const ContactForm = ({ success, loading, sendEmail }) => {
+const ContactForm = ({
+  error,
+  success,
+  loading,
+  sendEmail,
+}) => {
   const handleSubmit = (values, { setSubmitting, resetForm }) => {
     sendEmail(values); // hacer algo con los valores
     setSubmitting(false); // deshabilitar el botón de envío
@@ -132,6 +135,9 @@ const ContactForm = ({ success, loading, sendEmail }) => {
               {loading ? <Loader /> : null}
               {
                 success && !loading ? <p className="contact--form__success">Email enviado con exito, en breve me ponde en contácto.</p> : null
+              }
+              {
+                error && !loading ? <p className="contact--form__error">Ha ocurrido un error, por favor intenta mas tarde o enviame un email.</p> : null
               }
             </div>
           </Form>

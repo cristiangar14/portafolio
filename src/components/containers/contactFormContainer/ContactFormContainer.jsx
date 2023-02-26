@@ -6,6 +6,7 @@ import ContactForm from '../../pure/contactForm/ContactForm';
 const ContactFormContainer = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
   const sendEmail = (values) => {
     setLoading(true);
     setSuccess(true);
@@ -18,14 +19,16 @@ const ContactFormContainer = () => {
     }).then(() => {
       setSuccess(true);
       setLoading(false);
+      setError(false);
     })
     .catch(() => {
       setSuccess(false);
       setLoading(false);
+      setError(true);
     });
   };
 
-  return <ContactForm success={success} loading={loading} sendEmail={sendEmail} />;
+  return <ContactForm error={error} success={success} loading={loading} sendEmail={sendEmail} />;
 };
 
 export default ContactFormContainer;
