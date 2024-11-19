@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer--container">
           <div className="footer--left">
             <div className="footer--btn__cv">
-              <a href="https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/assets%2Fcv.pdf?alt=media&token=8dc79c83-13ba-482d-a092-e95f2079c69c" target="_blank" rel="noreferrer">
+              <a href="https://firebasestorage.googleapis.com/v0/b/cristian-garzon-dev.appspot.com/o/assets%2Fcv.pdf?alt=media&token=65722ff6-0f3f-4b60-8901-de9503725a5a" target="_blank" rel="noreferrer">
                 <h2>Descarga mi CV</h2>
               </a>
             </div>
